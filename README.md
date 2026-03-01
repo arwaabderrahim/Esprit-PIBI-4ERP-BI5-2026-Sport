@@ -1,38 +1,140 @@
-# Padel Analytics BI Platform
+# Padel Analytics – Business Intelligence Platform
 
 ## Overview
-The Padel Analytics BI platform is designed to offer in-depth insights and analytics for the sport of padel. Utilizing advanced data analysis techniques, it provides valuable information for players, coaches, and sports analysts.
+Padel Analytics is a Business Intelligence platform developed at **Esprit School of Engineering – Tunisia** (Academic Year 2025–2026).
+
+The project aims to centralize, transform, and analyze professional and amateur padel ecosystem data in order to provide strategic insights to federations, sponsors, equipment brands, tournament organizers, and sports analysts.
+
+The system integrates sports, equipment, and business data to generate dynamic decision dashboards.
+
+---
 
 ## Objectives
-- To provide comprehensive statistics and performance metrics for padel players.
-- To analyze trends and patterns in padel gameplay.
-- To assist coaches in making data-driven decisions to improve player performance.
+
+- Analyze player performance over the last 3 years
+- Identify equipment usage trends
+- Evaluate tournament popularity and impact
+- Assist brands in targeting high-potential players
+- Support organizers in optimizing tournaments
+- Manage match reservation system
+- Produce interactive BI dashboards
+
+---
 
 ## Key Performance Indicators (KPIs)
-- Player win/loss records
-- Average points won/lost
-- Match performance metrics
-- Player improvement over time
+
+### Sport KPIs – Players
+- Number of matches played
+- Win rate
+- Average ranking
+- Ranking evolution
+- Performance by surface
+- Performance by tournament
+- Points-to-match ratio
+
+### Tournament KPIs
+- Number of participants per tournament
+- Nationality distribution
+- Monthly participation rate
+- Estimated audience
+- Top-performing players per tournament
+- Player loyalty rate
+- Total prize money
+
+### Equipment KPIs
+- Most used brands
+- Equipment distribution by type
+- Average racket price
+- Sponsored players per brand
+- Equipment-performance correlation
+
+### Business & Marketing KPIs
+- Brand visibility
+- Player popularity
+- Tournament popularity
+- Padel growth rate over time
+
+---
 
 ## Architecture
-The Padel Analytics BI platform is built on a modular architecture that allows for easy expansion and integration with other systems. Its components include:
-- **Data Ingestion Module:** Collects data from various sources.
-- **Data Processing Module:** Cleans and processes the data for analysis.
-- **Analytics Module:** Performs statistical analysis and generates insights.
-- **Visualization Module:** Renders data insights in a user-friendly format.
+
+Data Sources → Talend ETL → Data Warehouse → Power BI Dashboards  
+                 ↓  
+           Apache Airflow (Orchestration)  
+                 ↓  
+              N8N (Automation)
+
+Frontend: Angular  
+Backend: Django / Flask  
+
+---
 
 ## Tech Stack
-- **Frontend:** React.js
-- **Backend:** Node.js, Express
-- **Database:** MongoDB
-- **Analytics Tools:** Python, Pandas, NumPy
 
-## Setup Instructions
-1. Clone the repository: `git clone https://github.com/arwaabderrahim/Esprit-PIBI-4ERP-BI5-2026-Sport.git`
-2. Navigate to the project directory: `cd Esprit-PIBI-4ERP-BI5-2026-Sport`
-3. Install dependencies: `npm install`
-4. Set up environment variables as per `.env.example` file.
-5. Run the application: `npm start`
+### Data Integration
+- Talend
+
+### Data Storage
+- PostgreSQL / Data Warehouse
+
+### Orchestration
+- Apache Airflow
+
+### Automation
+- N8N
+
+### Visualization
+- Power BI
+
+### Backend
+- Django / Flask
+
+### Frontend
+- Angular
+
+---
+
+## Academic Context
+Developed as part of the Business Intelligence Integration Project (PIBI)  
+**Esprit School of Engineering – Tunisia**  
+Academic Year: 2025–2026  
+Class: 4ERP-BI5
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Talend Studio
+- PostgreSQL
+- Apache Airflow
+- Power BI
+- Node.js (Angular)
+- Python (Django / Flask)
+
+### Setup
+1. Clone repository
+2. Configure database
+3. Execute ETL jobs
+4. Run Airflow orchestration
+5. Open Power BI dashboards
+
+---
+
+## Project Structure
+
+```
+/
+├── /backend              # Django/Flask backend application
+├── /frontend             # Angular frontend application
+├── /talend-jobs          # Talend ETL jobs
+├── /airflow-dags         # Apache Airflow DAGs
+├── /powerbi              # Power BI reports and dashboards
+├── /docs                 # Documentation
+└── README.md             # This file
+```
+
+---
 
 ## Contributors
 - Arwa Abderrahim
@@ -41,3 +143,10 @@ The Padel Analytics BI platform is built on a modular architecture that allows f
 - Abir Mannai
 - Ahmed Karoui
 - Yassine Lahmaier
+
+---
+
+## Acknowledgments
+Supervised under the academic framework of Esprit School of Engineering.
+
+This is a comprehensive Business Intelligence project demonstrating modern data engineering practices with complete ETL, orchestration, automation, and visualization workflows.
