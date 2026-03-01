@@ -1,1 +1,0 @@
-Developed at Esprit School of Engineering – Tunisia | Academic Year 2025–2026 | Business Intelligence Platform for Padel Performance Analytics | Talend, Power BI, Airflow, Angular, Django, N8N
