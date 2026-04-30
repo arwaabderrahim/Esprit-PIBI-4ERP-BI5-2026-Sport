@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_RVytAQWaEfGjzvZsOZmGxw" name="SA_Esprit_Padel" dataPackage="_RVytAgWaEfGjzvZsOZmGxw" Server="Localhost 127.0.0.1" FilePath="C:/Users/arwaa/Downloads/esprit_padel_20260205_163631.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="esprit_padel_20260205_163631" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="esprit_padel_20260205_163631:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_RVytAgWaEfGjzvZsOZmGxw" name="default" dataManager="_RVytAQWaEfGjzvZsOZmGxw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_RVytAwWaEfGjzvZsOZmGxw" id="_LfkggAWaEfGjzvZsOZmGxw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytBAWaEfGjzvZsOZmGxw" label="Nom" length="59" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytBQWaEfGjzvZsOZmGxw" label="Categorie" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytBgWaEfGjzvZsOZmGxw" label="Prix" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytBwWaEfGjzvZsOZmGxw" label="Prix_Ancien" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytCAWaEfGjzvZsOZmGxw" label="Etiquette" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytCQWaEfGjzvZsOZmGxw" label="Marque_Carte" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_RVytCgWaEfGjzvZsOZmGxw" label="Prix_Numerique" length="4" precision="2" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

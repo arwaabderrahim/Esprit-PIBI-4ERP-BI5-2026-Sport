@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_lyoZIATgEfGqRoliR9ANRg" name="Cal2025" id="_lyaWsATgEfGqRoliR9ANRg" dataPackage="_lyoZIQTgEfGqRoliR9ANRg" Server="Localhost 127.0.0.1" FilePath="C:/Users/arwaa/Downloads/Calandar/cl_2025.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Feuille1" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Feuille1:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lyoZIQTgEfGqRoliR9ANRg" name="default" dataManager="_lyoZIATgEfGqRoliR9ANRg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lyoZIgTgEfGqRoliR9ANRg" id="_XG_rIATgEfGqRoliR9ANRg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZIwTgEfGqRoliR9ANRg" label="Month" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZJATgEfGqRoliR9ANRg" label="Week" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZJQTgEfGqRoliR9ANRg" label="Start_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZJgTgEfGqRoliR9ANRg" label="End_Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZJwTgEfGqRoliR9ANRg" label="Event" length="37" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZKATgEfGqRoliR9ANRg" label="Category" length="20" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lyoZKQTgEfGqRoliR9ANRg" label="gender" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

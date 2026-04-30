@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_o8nJYQnkEfGmydXJN5rGSw" name="onetr" dataPackage="_o8nJYgnkEfGmydXJN5rGSw" Server="Localhost 127.0.0.1" FilePath="C:/Users/arwaa/Downloads/2023 final/tr_aug_woman_2023.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="August 2023 Female" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="August 2023 Female:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_o8nJYgnkEfGmydXJN5rGSw" name="default" dataManager="_o8nJYQnkEfGmydXJN5rGSw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_o8nJYwnkEfGmydXJN5rGSw" id="_dttoAAnkEfGmydXJN5rGSw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJZAnkEfGmydXJN5rGSw" label="Match_Type" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJZQnkEfGmydXJN5rGSw" label="Team_1" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJZgnkEfGmydXJN5rGSw" label="Team_2" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJZwnkEfGmydXJN5rGSw" label="Winner" length="46" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJaAnkEfGmydXJN5rGSw" label="Loser" length="50" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJaQnkEfGmydXJN5rGSw" label="Score" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJagnkEfGmydXJN5rGSw" label="Points__Winner" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJawnkEfGmydXJN5rGSw" label="Prize__Winner" length="7" precision="3" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJbAnkEfGmydXJN5rGSw" label="Points__Loser" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJbQnkEfGmydXJN5rGSw" label="Prize__Loser" length="8" precision="4" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJbgnkEfGmydXJN5rGSw" label="Date" length="-1" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJbwnkEfGmydXJN5rGSw" label="Tournament_Name" length="26" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_o8nJcAnkEfGmydXJN5rGSw" label="Gender" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
