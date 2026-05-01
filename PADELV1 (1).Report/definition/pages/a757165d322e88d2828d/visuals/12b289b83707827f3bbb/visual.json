@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "12b289b83707827f3bbb",
+  "position": {
+    "x": 568.61714831621691,
+    "y": 275.13732983042752,
+    "z": 15000,
+    "height": 201.76737520898018,
+    "width": 298.37114879388582,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "pieChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_gender"
+                    }
+                  },
+                  "Property": "Gender"
+                }
+              },
+              "queryRef": "dim_gender.Gender",
+              "nativeQueryRef": "Gender",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_performance"
+                    }
+                  },
+                  "Property": "Nb_Joueurs_actifs"
+                }
+              },
+              "queryRef": "fact_performance.Nb Joueurs actifs",
+              "nativeQueryRef": "Nb Joueurs actifs"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_performance"
+                  }
+                },
+                "Property": "Nb_Joueurs_actifs"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

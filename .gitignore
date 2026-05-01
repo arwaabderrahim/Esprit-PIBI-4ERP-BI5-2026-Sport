@@ -1,0 +1,16 @@
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Power BI local files
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Optional (if you still have pbix somewhere)
+*.pbix
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env

@@ -1,0 +1,86 @@
+relationship 4aed28d1-96a6-4468-a7bd-6b50f29c8d52
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_date.DateValue
+	toColumn: LocalDateTable_9565889d-4b29-43b9-8b42-6d5eeff67397.Date
+
+relationship bdebc365-ae7a-4132-be56-624c23b4bea7
+	joinOnDateBehavior: datePartOnly
+	fromColumn: dim_padel_info.created_at
+	toColumn: LocalDateTable_dab5cb8a-ea9c-4cef-b5c2-786bac994bf1.Date
+
+relationship a1d07ba5-eb32-4ba9-9ea3-6a1b8b0d165a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: fact_performance.Date
+	toColumn: LocalDateTable_26d6c8a7-3bfa-44a4-ba2a-d5aaa6dfbf9e.Date
+
+relationship AutoDetected_e1406b0c-467f-4253-807c-07f9a3ba8f54
+	fromColumn: fact_performance.DateKey
+	toColumn: dim_date.DateKey
+
+relationship AutoDetected_3eed55ca-5444-419d-96d3-54e5a068d803
+	fromColumn: fact_performance.Id_gender
+	toColumn: dim_gender.Id_gender
+
+relationship AutoDetected_2f58f989-91b1-4251-a2bc-64f779d2b1dd
+	fromColumn: fact_performance.Id_type_match
+	toColumn: dim_type_match.Id_type_match
+
+relationship AutoDetected_5b537e55-091d-4bfa-821c-73ab50623a3f
+	fromColumn: fact_equipement.Id_vendor
+	toColumn: dim_vendor.Id_vendor
+
+relationship 68c1be43-903c-f394-9c03-7eb671ee9140
+	fromColumn: fact_performance.Id_tr_name
+	toColumn: dim_tournmant.Id_tr_name
+
+relationship bb09b0fa-fec0-fcf8-3c43-6c310a6a44f2
+	fromColumn: fact_performance.Id_Country_player1_loser
+	toColumn: dim_countryy.Id_Country
+
+relationship cc4437b2-3254-4f94-ae5d-5cc73961207c
+	isActive: false
+	fromColumn: fact_performance.Id_Country_player1_winner
+	toColumn: dim_countryy.Id_Country
+
+relationship 78910df9-203a-26e0-0303-bc642e119d60
+	isActive: false
+	fromColumn: fact_performance.Id_Country_player2_loser
+	toColumn: dim_countryy.Id_Country
+
+relationship def5b3b8-a694-6d1f-e377-b87a30023470
+	isActive: false
+	fromColumn: fact_performance.Id_Country_player2_winner
+	toColumn: dim_countryy.Id_Country
+
+relationship ab2b687a-e347-7933-9195-9a57a07742cd
+	fromColumn: fact_performance.Id_team_Loser
+	toColumn: dim_team_ofc.Id_team
+
+relationship 07d3c0be-5997-2882-88c5-3a47b4bedf2d
+	isActive: false
+	fromColumn: fact_performance.Id_team_Winner
+	toColumn: dim_team_ofc.Id_team
+
+relationship 57347cf1-1131-944f-f530-2543d5160e8e
+	fromColumn: fact_equipement.Id_Player
+	toColumn: dim_player_ofc.Id_Player
+
+relationship 9ec8354d-fe93-bbc4-0bab-30d2bdc50734
+	fromColumn: fact_equipement.DateKey
+	toColumn: dim_date.DateKey
+
+relationship 26390433-886c-3bb8-50f2-a94bafb35124
+	fromColumn: dim_team_ofc.Id_Player_2
+	toColumn: dim_player_ofc.Id_Player
+
+relationship a056009d-6d7d-80a9-644f-91582d35d01a
+	isActive: false
+	fromColumn: dim_team_ofc.Id_Player_1
+	toColumn: dim_player_ofc.Id_Player
+
+relationship b5a29c27-ef44-fc55-53c5-18b9626c937b
+	crossFilteringBehavior: bothDirections
+	fromCardinality: one
+	fromColumn: dim_padel_info.Id_Padel
+	toColumn: fact_equipement.Id_Padel
+

@@ -1,0 +1,111 @@
+table fact_equipement
+	lineageTag: a77e36be-5927-4ecb-b463-174d2ed7336c
+
+	measure Nb_Marques = DISTINCTCOUNT(dim_vendor[vendor])
+		formatString: 0
+		lineageTag: 1bc0653f-f0d4-4244-b109-d64082ca4bec
+
+	measure Nb_Types = DISTINCTCOUNT(dim_padel_info[racket_type])
+		formatString: 0
+		lineageTag: d0095455-bbda-4d3b-9226-538e88aa97dc
+
+	measure Nb_Equipements = COUNTROWS(fact_equipement)
+		formatString: 0
+		lineageTag: 33d8e5de-b8c1-4a6f-a63b-f7fdf138f98c
+
+	measure 'Sponsored Players' =
+			
+			DISTINCTCOUNT(fact_equipement[Id_player])
+		formatString: 0
+		lineageTag: 63413eed-246f-46be-a932-67f89bbd1b01
+
+	measure Prix_Moyen = AVERAGE(fact_equipement[price])
+		lineageTag: 07c0a038-7183-4165-b55f-6ddfbf6589b3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Prix_Min = MIN(fact_equipement[price])
+		lineageTag: 9057332b-ab7e-4d89-94f2-0a8d724b16af
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Prix_Max = MAX(fact_equipement[price])
+		lineageTag: e13b07ce-c08e-4eef-96de-92955ef9c240
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Nb_Lignes = COUNT(fact_equipement[Id_Fact])
+		formatString: 0
+		lineageTag: 9c24c62a-95cc-472c-91b2-1dbef44e7341
+
+	measure Nb_Raquettes = COUNTROWS(RELATEDTABLE(fact_equipement))
+		formatString: 0
+		lineageTag: 795913ec-3215-4e68-ab1e-96dbb911c33c
+
+	column Id_Padel
+		dataType: int64
+		formatString: 0
+		lineageTag: fcdd5b60-5fdb-4ebd-864f-22eaac7dafc5
+		summarizeBy: none
+		sourceColumn: Id_Padel
+
+		annotation SummarizationSetBy = Automatic
+
+	column DateKey
+		dataType: int64
+		formatString: 0
+		lineageTag: d3fb704a-1142-4ca2-b50f-a417d063c6da
+		summarizeBy: none
+		sourceColumn: DateKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player
+		dataType: int64
+		formatString: 0
+		lineageTag: 782caef9-f58e-459c-8176-2b16fd057276
+		summarizeBy: none
+		sourceColumn: Id_Player
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_vendor
+		dataType: int64
+		formatString: 0
+		lineageTag: c511b213-1e11-4e53-a9f9-79d9395285bb
+		summarizeBy: none
+		sourceColumn: Id_vendor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Fact
+		dataType: int64
+		formatString: 0
+		lineageTag: ec87ff58-4fd5-41c5-9e11-2dfcd2bd0d86
+		summarizeBy: sum
+		sourceColumn: Id_Fact
+
+		annotation SummarizationSetBy = Automatic
+
+	column price
+		dataType: double
+		lineageTag: 4e4cad57-6802-4f7f-ada6-7ccab42fb476
+		summarizeBy: sum
+		sourceColumn: price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition fact_equipement = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    fact_equipement_Table = dw_padel_analytics_Database{[Name="fact_equipement",Kind="Table"]}[Data]
+				in
+				    fact_equipement_Table
+
+	annotation PBI_ResultType = Table
+

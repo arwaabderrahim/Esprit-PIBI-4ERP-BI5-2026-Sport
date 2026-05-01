@@ -1,0 +1,68 @@
+table dim_team_ofc
+	lineageTag: 80f840f7-04d1-4452-84ca-23e7ace27118
+
+	column Team_1
+		dataType: string
+		lineageTag: a914fb46-9e5b-40c4-b50e-61464f77690c
+		summarizeBy: none
+		sourceColumn: Team_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_1
+		dataType: int64
+		formatString: 0
+		lineageTag: fb86b18b-cb48-4c20-b819-42b6c399a781
+		summarizeBy: sum
+		sourceColumn: Id_Player_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 04071c77-c5d7-4528-953c-27e4689d637d
+		summarizeBy: none
+		sourceColumn: Id_Player_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_team
+		dataType: int64
+		formatString: 0
+		lineageTag: febcc792-13e1-48f6-a4d1-1f9eaa130cd3
+		summarizeBy: none
+		sourceColumn: Id_team
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player1
+		dataType: int64
+		formatString: 0
+		lineageTag: c61159d0-2cc5-4eeb-83d2-7be1fa40f1a9
+		summarizeBy: sum
+		sourceColumn: Id_Country_player1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player2
+		dataType: int64
+		formatString: 0
+		lineageTag: 019d0bb4-0c42-45d7-9793-58eaff5f6513
+		summarizeBy: sum
+		sourceColumn: Id_Country_player2
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_team_ofc = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_team_ofc_Table = dw_padel_analytics_Database{[Name="dim_team_ofc",Kind="Table"]}[Data]
+				in
+				    dim_team_ofc_Table
+
+	annotation PBI_ResultType = Table
+

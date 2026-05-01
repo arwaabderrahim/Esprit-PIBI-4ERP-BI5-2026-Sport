@@ -1,0 +1,32 @@
+table dim_tournmant
+	lineageTag: f08046dc-836a-4855-a1f9-05f36e7b9396
+
+	column Tournament_Name
+		dataType: string
+		lineageTag: 2793e455-f8c2-4010-9a5a-033109bb4bc4
+		summarizeBy: none
+		sourceColumn: Tournament_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_tr_name
+		dataType: int64
+		formatString: 0
+		lineageTag: c52cf46a-3913-438e-b76b-68d31abb55d0
+		summarizeBy: none
+		sourceColumn: Id_tr_name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_tournmant = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_tournmant_Table = dw_padel_analytics_Database{[Name="dim_tournmant",Kind="Table"]}[Data]
+				in
+				    dim_tournmant_Table
+
+	annotation PBI_ResultType = Table
+

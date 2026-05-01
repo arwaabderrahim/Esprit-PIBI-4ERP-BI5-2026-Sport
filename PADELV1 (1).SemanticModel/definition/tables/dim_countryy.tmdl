@@ -1,0 +1,30 @@
+table dim_countryy
+	lineageTag: 047ab897-a693-4a66-a452-6866aba55333
+
+	column Country
+		dataType: string
+		lineageTag: 080a2c5e-f25f-4cdb-8e08-31eda60256f0
+		summarizeBy: none
+		sourceColumn: Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country
+		dataType: int64
+		formatString: 0
+		lineageTag: 7cc3d7ae-f78a-4978-8085-1bd81dbfc383
+		summarizeBy: none
+		sourceColumn: Id_Country
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_countryy = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_countryy_Table = dw_padel_analytics_Database{[Name="dim_countryy",Kind="Table"]}[Data]
+				in
+				    dim_countryy_Table
+

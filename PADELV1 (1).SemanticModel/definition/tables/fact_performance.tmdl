@@ -1,0 +1,323 @@
+table fact_performance
+	lineageTag: e4c7d292-9387-4962-ab03-f6cccc1c6319
+
+	measure Nb_Joueurs_actifs =
+			COUNTROWS(
+			    DISTINCT(
+			        UNION(
+			            SELECTCOLUMNS(fact_performance, "Player", fact_performance[Id_Player_1_winner]),
+			            SELECTCOLUMNS(fact_performance, "Player", fact_performance[Id_Player_2_winner]),
+			            SELECTCOLUMNS(fact_performance, "Player", fact_performance[Id_Player_1_loser]),
+			            SELECTCOLUMNS(fact_performance, "Player", fact_performance[Id_Player_2_loser])
+			        )
+			    )
+			)
+		formatString: 0
+		lineageTag: da8bf8fe-de8d-4cd4-b8d0-91b54de056a1
+
+	measure Taux_Victoire =
+			
+			DIVIDE(
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        FILTER(fact_performance,
+			            fact_performance[Id_Player_1_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_2_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        )
+			    ),
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        FILTER(fact_performance,
+			            fact_performance[Id_Player_1_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_2_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_1_loser] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_2_loser] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        )
+			    ),
+			    0
+			)
+		lineageTag: 76f03e74-b905-445b-9369-4a81ab708e7f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Nb_Matchs_Joues =
+			
+			CALCULATE(
+			    COUNTROWS(fact_performance),
+			    FILTER(fact_performance,
+			        fact_performance[Id_Player_1_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        || fact_performance[Id_Player_2_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        || fact_performance[Id_Player_1_loser] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        || fact_performance[Id_Player_2_loser] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			    )
+			)
+		formatString: 0
+		lineageTag: 24297571-da04-4de6-a6b7-0a9533718b04
+
+	measure Nb_Matchs = COUNTROWS(fact_performance)
+		formatString: 0
+		lineageTag: 15291a15-9ff6-4c51-a286-6850ae9b29ba
+
+	measure Nb_Tournois = DISTINCTCOUNT(dim_tournmant[Id_tr_name])
+		formatString: 0
+		lineageTag: acef3aa2-423c-404c-96f5-1dbd25b9566e
+
+	measure Avg_Points_Winner = AVERAGE(fact_performance[Points__Winner])
+		lineageTag: c50acfa1-1c6b-4efb-876d-9d1de7a6834c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Avg_Points_Loser = AVERAGE(fact_performance[Points__Loser])
+		lineageTag: 922d8674-e82f-4bb6-abf0-f866bb756d70
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Taux_Victoire_Tournois = ```
+			DIVIDE(
+			    CALCULATE(DISTINCTCOUNT(fact_performance[Id_team_Winner]),
+			        FILTER(fact_performance,
+			            fact_performance[Id_Player_1_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_2_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        )
+			    ),
+			    CALCULATE(COUNTROWS(fact_performance),
+			        FILTER(fact_performance,
+			            fact_performance[Id_Player_1_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			            || fact_performance[Id_Player_2_winner] = SELECTEDVALUE(dim_player_ofc[Id_Player])
+			        )
+			    ),
+			    0
+			)
+			
+			
+			```
+		lineageTag: 915d894a-458f-4ac5-9b61-faa3e956d21b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Taux_Perte_Tournois = 1 - [Taux_Victoire_Tournois]
+		lineageTag: 4db08ea2-5119-4b72-9bf7-de11516ce422
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Ratio_Points_Matchs = DIVIDE(SUM(fact_performance[Points__Winner]), [Nb_Matchs], 0)
+		lineageTag: ca1aa52b-1ec0-4981-a3a8-b3327b5d564b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Prize_Money_Total = SUMX(fact_performance, IF(ISERROR(VALUE(fact_performance[Prize__Winner])), 0, VALUE(fact_performance[Prize__Winner]))) + SUMX(fact_performance, IF(ISERROR(VALUE(fact_performance[Prize__Loser])), 0, VALUE(fact_performance[Prize__Loser])))
+		formatString: 0
+		lineageTag: 09be19ee-2864-4fc3-9903-afec3424ca6e
+
+	column DateKey
+		dataType: int64
+		formatString: 0
+		lineageTag: 54aacc3f-03a9-40aa-9299-8871b10061b3
+		summarizeBy: none
+		sourceColumn: DateKey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_gender
+		dataType: int64
+		formatString: 0
+		lineageTag: d99b6279-f6a4-4d3d-a236-9fa3c6d19218
+		summarizeBy: none
+		sourceColumn: Id_gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_type_match
+		dataType: int64
+		formatString: 0
+		lineageTag: 1134d8ff-174e-4b7a-aef0-cb0fcbac24a7
+		summarizeBy: none
+		sourceColumn: Id_type_match
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_tr_name
+		dataType: int64
+		formatString: 0
+		lineageTag: 963d6ab6-b4db-44e3-a67b-6e18bfb6314a
+		summarizeBy: none
+		sourceColumn: Id_tr_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Fact
+		dataType: int64
+		formatString: 0
+		lineageTag: cef90bc1-d121-48a4-a59a-75b54f256943
+		summarizeBy: sum
+		sourceColumn: Id_Fact
+
+		annotation SummarizationSetBy = Automatic
+
+	column Score
+		dataType: string
+		lineageTag: 32213c82-18d9-4567-a081-42e883748dd3
+		summarizeBy: none
+		sourceColumn: Score
+
+		annotation SummarizationSetBy = Automatic
+
+	column Points__Loser
+		dataType: int64
+		formatString: 0
+		lineageTag: 61adb2d7-b4e3-4c25-a0b6-7d325ac04603
+		summarizeBy: sum
+		sourceColumn: Points__Loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Points__Winner
+		dataType: int64
+		formatString: 0
+		lineageTag: 627f93a2-168c-4c40-a4da-7425a2ce1508
+		summarizeBy: sum
+		sourceColumn: Points__Winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player1_winner
+		dataType: int64
+		formatString: 0
+		lineageTag: 6249bfb9-11a2-41d7-a600-b75bb1bf111f
+		summarizeBy: sum
+		sourceColumn: Id_Country_player1_winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player2_winner
+		dataType: int64
+		formatString: 0
+		lineageTag: f015070c-75c2-446a-8914-e64de1d71ec7
+		summarizeBy: sum
+		sourceColumn: Id_Country_player2_winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_1_winner
+		dataType: int64
+		formatString: 0
+		lineageTag: e1fb3a2b-f45a-4ac5-b698-cfb46936682d
+		summarizeBy: sum
+		sourceColumn: Id_Player_1_winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_2_winner
+		dataType: int64
+		formatString: 0
+		lineageTag: 07e97eec-c364-40ff-8ee2-22ac1af1bc35
+		summarizeBy: sum
+		sourceColumn: Id_Player_2_winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_1_loser
+		dataType: int64
+		formatString: 0
+		lineageTag: 6ba0b7e8-a17c-4be1-94ad-f181eff02ea3
+		summarizeBy: sum
+		sourceColumn: Id_Player_1_loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player_2_loser
+		dataType: int64
+		formatString: 0
+		lineageTag: e62ca88a-2eaf-4c00-b313-3ddce9eec391
+		summarizeBy: sum
+		sourceColumn: Id_Player_2_loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player1_loser
+		dataType: int64
+		formatString: 0
+		lineageTag: 88b7e3da-da44-4d62-a692-85accee34080
+		summarizeBy: none
+		sourceColumn: Id_Country_player1_loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country_player2_loser
+		dataType: int64
+		formatString: 0
+		lineageTag: 79dad514-0d10-4aae-a255-847e2c54754e
+		summarizeBy: sum
+		sourceColumn: Id_Country_player2_loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Prize__Winner
+		dataType: string
+		lineageTag: 264b00f6-d742-4441-b613-8470c3145e86
+		summarizeBy: none
+		sourceColumn: Prize__Winner
+
+		annotation SummarizationSetBy = Automatic
+
+	column Prize__Loser
+		dataType: int64
+		formatString: 0
+		lineageTag: abcd9713-e567-4629-ad6a-b4f5270a8c11
+		summarizeBy: sum
+		sourceColumn: Prize__Loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Tournament_Name
+		dataType: string
+		lineageTag: 38a0be0f-f608-4912-be9f-bdd677762018
+		summarizeBy: none
+		sourceColumn: Tournament_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 61802ad0-fe0a-45a4-b659-4946dd4536c1
+		summarizeBy: none
+		sourceColumn: Date
+
+		variation Variation
+			isDefault
+			relationship: a1d07ba5-eb32-4ba9-9ea3-6a1b8b0d165a
+			defaultHierarchy: LocalDateTable_26d6c8a7-3bfa-44a4-ba2a-d5aaa6dfbf9e.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_team_Loser
+		dataType: int64
+		formatString: 0
+		lineageTag: 9fbed6a2-374a-455d-9988-b067de3ed3ee
+		summarizeBy: none
+		sourceColumn: Id_team_Loser
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_team_Winner
+		dataType: int64
+		formatString: 0
+		lineageTag: 62d22563-6344-4cd1-aa2a-5372cd0fcfd8
+		summarizeBy: sum
+		sourceColumn: Id_team_Winner
+
+		annotation SummarizationSetBy = Automatic
+
+	partition fact_performance = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    fact_performance_Table = dw_padel_analytics_Database{[Name="fact_performance",Kind="Table"]}[Data]
+				in
+				    fact_performance_Table
+
+	annotation PBI_ResultType = Table
+

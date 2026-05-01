@@ -1,0 +1,90 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.8.0/schema.json",
+  "name": "d5de035fd3db45da2a80",
+  "position": {
+    "x": 860.87413422498207,
+    "y": 201.76737520898018,
+    "z": 5000,
+    "height": 243.34368282780034,
+    "width": 399.866252686888,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_padel_info"
+                    }
+                  },
+                  "Property": "racket_type"
+                }
+              },
+              "queryRef": "dim_padel_info.racket_type",
+              "nativeQueryRef": "racket_type",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "fact_equipement"
+                    }
+                  },
+                  "Property": "Prix_Moyen"
+                }
+              },
+              "queryRef": "fact_equipement.Prix_Moyen",
+              "nativeQueryRef": "Prix_Moyen"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "fact_equipement"
+                  }
+                },
+                "Property": "Prix_Moyen"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

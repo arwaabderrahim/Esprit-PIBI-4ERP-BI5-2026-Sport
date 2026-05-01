@@ -1,0 +1,173 @@
+table dim_padel_info
+	lineageTag: 6a52b914-0536-4ebe-a795-06965b79ce0d
+
+	column title
+		dataType: string
+		lineageTag: 2de3b774-ec27-4e36-824a-e0a2c72a6bbd
+		summarizeBy: none
+		sourceColumn: title
+
+		annotation SummarizationSetBy = Automatic
+
+	column handle
+		dataType: string
+		lineageTag: 5229cfe3-6f72-4479-abc8-4cea0684a90b
+		summarizeBy: none
+		sourceColumn: handle
+
+		annotation SummarizationSetBy = Automatic
+
+	column product_type
+		dataType: string
+		lineageTag: cad2a889-c9a5-4ae5-a7a8-3802cf7cfcb8
+		summarizeBy: none
+		sourceColumn: product_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column tags
+		dataType: string
+		lineageTag: 6a366982-2b2c-4fd0-904d-b179e2bc4524
+		summarizeBy: none
+		sourceColumn: tags
+
+		annotation SummarizationSetBy = Automatic
+
+	column created_at
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: ab1dc433-4556-4293-9284-c03dbc6cc366
+		summarizeBy: none
+		sourceColumn: created_at
+
+		variation Variation
+			isDefault
+			relationship: bdebc365-ae7a-4132-be56-624c23b4bea7
+			defaultHierarchy: LocalDateTable_dab5cb8a-ea9c-4cef-b5c2-786bac994bf1.'Hiérarchie de dates'
+
+		annotation SummarizationSetBy = Automatic
+
+	column sku
+		dataType: int64
+		formatString: 0
+		lineageTag: c505fd17-f667-45a2-a2aa-bf438f18a1af
+		summarizeBy: sum
+		sourceColumn: sku
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Padel
+		dataType: int64
+		formatString: 0
+		lineageTag: 84e4d62c-9547-4dc7-9ba5-f523640674a0
+		summarizeBy: none
+		sourceColumn: Id_Padel
+
+		annotation SummarizationSetBy = Automatic
+
+	column image
+		dataType: string
+		lineageTag: ea794f34-0208-42de-a095-6463d5c06ada
+		summarizeBy: none
+		sourceColumn: image
+
+		annotation SummarizationSetBy = Automatic
+
+	column weight
+		dataType: string
+		lineageTag: 2662db66-a317-45f9-98f3-52b6f8d3e498
+		summarizeBy: none
+		sourceColumn: weight
+
+		annotation SummarizationSetBy = Automatic
+
+	column shape
+		dataType: string
+		lineageTag: cada8dad-4bd6-4feb-9573-d91a1559ab66
+		summarizeBy: none
+		sourceColumn: shape
+
+		annotation SummarizationSetBy = Automatic
+
+	column foam
+		dataType: string
+		lineageTag: 21dfab5c-975a-4e37-868f-d3a01d20e3fe
+		summarizeBy: none
+		sourceColumn: foam
+
+		annotation SummarizationSetBy = Automatic
+
+	column collection
+		dataType: string
+		lineageTag: e04b8a72-c25c-4b20-ae19-0a53bafebc6b
+		summarizeBy: none
+		sourceColumn: collection
+
+		annotation SummarizationSetBy = Automatic
+
+	column game_level
+		dataType: string
+		lineageTag: df84b408-d264-48c8-aa41-de1d9ba5c4f0
+		summarizeBy: none
+		sourceColumn: game_level
+
+		annotation SummarizationSetBy = Automatic
+
+	column frame
+		dataType: string
+		lineageTag: eebbd3b5-7359-442e-babc-8a334ed81f96
+		summarizeBy: none
+		sourceColumn: frame
+
+		annotation SummarizationSetBy = Automatic
+
+	column surface
+		dataType: string
+		lineageTag: 43b32451-e478-485b-bb82-d47897ec7c6b
+		summarizeBy: none
+		sourceColumn: surface
+
+		annotation SummarizationSetBy = Automatic
+
+	column color
+		dataType: string
+		lineageTag: e25569f5-1eca-4697-82a5-778f7a4ca47b
+		summarizeBy: none
+		sourceColumn: color
+
+		annotation SummarizationSetBy = Automatic
+
+	column racket_type
+		dataType: string
+		lineageTag: eef1d9de-93f5-493d-ae4f-e8daadd956f3
+		summarizeBy: none
+		sourceColumn: racket_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column balance
+		dataType: string
+		lineageTag: 60373369-01f0-4a4d-8090-7b04cf9d30e0
+		summarizeBy: none
+		sourceColumn: balance
+
+		annotation SummarizationSetBy = Automatic
+
+	column racket_cover
+		dataType: string
+		lineageTag: f49060e4-f0fe-4815-8ffa-e34282cbcfd6
+		summarizeBy: none
+		sourceColumn: racket_cover
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_padel_info = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_padel_info_Table = dw_padel_analytics_Database{[Name="dim_padel_info",Kind="Table"]}[Data]
+				in
+				    dim_padel_info_Table
+

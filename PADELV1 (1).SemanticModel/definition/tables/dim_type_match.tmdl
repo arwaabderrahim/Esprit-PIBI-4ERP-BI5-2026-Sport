@@ -1,0 +1,32 @@
+table dim_type_match
+	lineageTag: 5ef01ec2-2599-4b0e-83ef-60aa975ad5c3
+
+	column Match_type
+		dataType: string
+		lineageTag: c639bd36-230c-491a-b5d3-1fe0e973d4c7
+		summarizeBy: none
+		sourceColumn: Match_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_type_match
+		dataType: int64
+		formatString: 0
+		lineageTag: 63c1e86d-1e0a-4f82-aba4-4dfa08e2d4f6
+		summarizeBy: none
+		sourceColumn: Id_type_match
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_type_match = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_type_match_Table = dw_padel_analytics_Database{[Name="dim_type_match",Kind="Table"]}[Data]
+				in
+				    dim_type_match_Table
+
+	annotation PBI_ResultType = Table
+

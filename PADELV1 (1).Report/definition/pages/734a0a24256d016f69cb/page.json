@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "734a0a24256d016f69cb",
+  "displayName": "Analyseur",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

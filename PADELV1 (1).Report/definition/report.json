@@ -1,0 +1,157 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/report/3.2.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY26SU04",
+      "reportVersionAtImport": {
+        "visual": "2.8.0",
+        "report": "3.2.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    },
+    "customTheme": {
+      "name": "AccessibleOrchid",
+      "reportVersionAtImport": {
+        "visual": "2.8.0",
+        "report": "3.2.0",
+        "page": "2.3.1"
+      },
+      "type": "SharedResources"
+    }
+  },
+  "objects": {
+    "section": [
+      {
+        "properties": {
+          "verticalAlignment": {
+            "expr": {
+              "Literal": {
+                "Value": "'Top'"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "outspacePane": [
+      {
+        "properties": {
+          "expanded": {
+            "expr": {
+              "Literal": {
+                "Value": "false"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "publicCustomVisuals": [
+    "radarChart",
+    "radarChartE89D21F3E4E64221B79113B5015EA81B"
+  ],
+  "resourcePackages": [
+    {
+      "name": "SharedResources",
+      "type": "SharedResources",
+      "items": [
+        {
+          "name": "AccessibleOrchid",
+          "path": "BuiltInThemes/AccessibleOrchid.json",
+          "type": "CustomTheme"
+        },
+        {
+          "name": "CY26SU04",
+          "path": "BaseThemes/CY26SU04.json",
+          "type": "BaseTheme"
+        }
+      ]
+    },
+    {
+      "name": "RegisteredResources",
+      "type": "RegisteredResources",
+      "items": [
+        {
+          "name": "1000_F_233746944_3fKRSgBnL8L0E14601354344817508.png",
+          "path": "1000_F_233746944_3fKRSgBnL8L0E14601354344817508.png",
+          "type": "Image"
+        },
+        {
+          "name": "433081-2009463750958011536.png",
+          "path": "433081-2009463750958011536.png",
+          "type": "Image"
+        },
+        {
+          "name": "header_equipment42139415497992805.png",
+          "path": "header_equipment42139415497992805.png",
+          "type": "Image"
+        },
+        {
+          "name": "header_home5107259675448088.png",
+          "path": "header_home5107259675448088.png",
+          "type": "Image"
+        },
+        {
+          "name": "header_players8229604186883848.png",
+          "path": "header_players8229604186883848.png",
+          "type": "Image"
+        },
+        {
+          "name": "header_powerbi3187791029342967.png",
+          "path": "header_powerbi3187791029342967.png",
+          "type": "Image"
+        },
+        {
+          "name": "images-removebg-preview2955837743705212.png",
+          "path": "images-removebg-preview2955837743705212.png",
+          "type": "Image"
+        },
+        {
+          "name": "navv03391651507250237.jpg",
+          "path": "navv03391651507250237.jpg",
+          "type": "Image"
+        },
+        {
+          "name": "padel_sidebar_no_buttons19399641779727393.png",
+          "path": "padel_sidebar_no_buttons19399641779727393.png",
+          "type": "Image"
+        },
+        {
+          "name": "padel_sidebar_no_buttons22566977106109807.png",
+          "path": "padel_sidebar_no_buttons22566977106109807.png",
+          "type": "Image"
+        },
+        {
+          "name": "sidebar_equipment1455375654544595.png",
+          "path": "sidebar_equipment1455375654544595.png",
+          "type": "Image"
+        },
+        {
+          "name": "sidebar_home8987414072046799.png",
+          "path": "sidebar_home8987414072046799.png",
+          "type": "Image"
+        },
+        {
+          "name": "sidebar_players3373650663744163.png",
+          "path": "sidebar_players3373650663744163.png",
+          "type": "Image"
+        },
+        {
+          "name": "sidebar_tournament38819410293742296.png",
+          "path": "sidebar_tournament38819410293742296.png",
+          "type": "Image"
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "useStylableVisualContainerHeader": true,
+    "exportDataMode": "AllowSummarized",
+    "defaultDrillFilterOtherVisuals": true,
+    "allowChangeFilterTypes": true,
+    "useEnhancedTooltips": true,
+    "useDefaultAggregateDisplayName": true
+  }
+}

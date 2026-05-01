@@ -1,0 +1,159 @@
+table Mesures
+	lineageTag: b91845d9-a01e-4747-a714-b7f6df35aba8
+
+	measure 'Monthly Participation %' =
+			
+			DIVIDE(
+			    CALCULATE(
+			        DISTINCTCOUNT(fact_performance[Id_team_Winner])
+			            + DISTINCTCOUNT(fact_performance[Id_team_Loser]),
+			        NOT ISBLANK(fact_performance[DateKey])
+			    ),
+			    [Active Players]
+			) * 100
+		lineageTag: 7d2309e6-eaf3-45f1-b40f-2bbe6c801512
+
+	measure 'Active Players' =
+			
+			CALCULATE(
+			    COUNTROWS(dim_player_ofc),
+			    dim_player_ofc[Is Active] = 1
+			)
+		lineageTag: 037f1894-2974-4b2e-8272-81b40bf0d468
+
+	measure 'Top Brand' =
+			
+			FIRSTNONBLANK(
+			    TOPN(1, VALUES(dim_vendor[vendor]), [Brand Market Share %], DESC),
+			    1
+			)
+		lineageTag: 316481d4-7aac-4fcb-92d0-bdf49b4861ec
+
+	measure 'Brand Market Share %' =
+			
+			DIVIDE(
+			    COUNTROWS(fact_equipement),
+			    CALCULATE(COUNTROWS(fact_equipement), ALL(dim_vendor))
+			) * 100
+		lineageTag: c835e5ca-c9e5-490c-9644-2edb0d897080
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Win Rate %' =
+			
+			DIVIDE([Wins], [Total Matches]) * 100
+		lineageTag: 24b3f9cd-4227-4a21-9caf-11897c4d3e1b
+
+	measure 'Total Matches' =
+			
+			COUNTROWS(fact_performance)
+		formatString: 0
+		lineageTag: db29699d-eba6-4bb9-9d92-6841418ec08b
+
+	measure Wins =
+			
+			CALCULATE(
+			    COUNTROWS(fact_performance),
+			    fact_performance[Points__Winner] > 0
+			)
+		formatString: 0
+		lineageTag: 1f70f53f-a8e9-4e9a-9761-e0878bc1f5a8
+
+	measure 'Win Rate by Country' =
+			
+			VAR CountryPlayers =
+			    VALUES(dim_player_ofc[Id_player])
+			
+			VAR TotalMatches =
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        fact_performance[Id_Player_1_winner] IN CountryPlayers
+			            || fact_performance[Id_Player_1_loser] IN CountryPlayers
+			    )
+			
+			VAR WonMatches =
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        fact_performance[Id_Player_1_winner] IN CountryPlayers
+			    )
+			
+			RETURN
+			    IF(
+			        TotalMatches = 0,
+			        BLANK(),
+			        ROUND(DIVIDE(WonMatches, TotalMatches) * 100, 1)
+			    )
+		lineageTag: c1071384-c180-4853-b294-008bfc4e0238
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Win Rate by Vendor' =
+			
+			VAR VendorPlayers =
+			    VALUES(fact_equipement[Id_Player])
+			
+			VAR TotalMatches =
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        fact_performance[Id_Player_1_winner] IN VendorPlayers
+			            || fact_performance[Id_Player_2_winner] IN VendorPlayers
+			            || fact_performance[Id_Player_1_loser] IN VendorPlayers
+			            || fact_performance[Id_Player_2_loser] IN VendorPlayers
+			    )
+			
+			VAR WonMatches =
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        fact_performance[Id_Player_1_winner] IN VendorPlayers
+			            || fact_performance[Id_Player_2_winner] IN VendorPlayers
+			    )
+			
+			RETURN
+			    IF(
+			        TotalMatches = 0 || ISBLANK(TotalMatches),
+			        BLANK(),
+			        ROUND(DIVIDE(WonMatches, TotalMatches) * 100, 1)
+			    )
+		lineageTag: 93ab7415-450c-4fe2-ab5c-64865ab43b8e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'Total Prize Money' = ```
+			
+			SUM(fact_performance[Points__Winner]) + SUM(fact_performance[Points__Loser])
+			
+			```
+		formatString: 0
+		lineageTag: 9130d26b-cdb2-40d2-a018-5740015024ce
+
+	measure 'Total Players' =
+			
+			CALCULATE(
+			    DISTINCTCOUNT(dim_player_ofc[Id_Player]),
+			    TREATAS(VALUES(dim_countryy[Id_Country]), dim_player_ofc[Id_Country]))
+		formatString: 0
+		lineageTag: cfe464d1-ed49-4242-8449-b4df883ee13b
+
+	measure 'Tournament Loyalty' =
+			
+			DISTINCTCOUNT(fact_performance[Tournament_Name])
+		formatString: 0
+		lineageTag: 97c59666-0da2-485d-b041-0b95bd603354
+
+	column Column
+		formatString: 0
+		lineageTag: ef26e78d-7d83-4435-81a9-c8cc1081ad0d
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Mesures = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = 202258d8c3f7494a82432f4072fde370
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

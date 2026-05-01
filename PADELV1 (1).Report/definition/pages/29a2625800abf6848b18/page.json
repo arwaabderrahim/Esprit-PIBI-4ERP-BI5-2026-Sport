@@ -1,0 +1,8 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "29a2625800abf6848b18",
+  "displayName": "Détails Players",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280
+}

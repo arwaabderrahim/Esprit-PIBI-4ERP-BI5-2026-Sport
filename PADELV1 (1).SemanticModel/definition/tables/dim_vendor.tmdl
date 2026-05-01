@@ -1,0 +1,32 @@
+table dim_vendor
+	lineageTag: fcfdfe00-7e0a-4583-80e6-7fdb77a6f30c
+
+	column vendor
+		dataType: string
+		lineageTag: 4f10e874-f69f-4ca0-8158-eb842cbb1a73
+		summarizeBy: none
+		sourceColumn: vendor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_vendor
+		dataType: int64
+		formatString: 0
+		lineageTag: 9ab60877-f5de-44e6-b594-3690b38b0dbe
+		summarizeBy: none
+		sourceColumn: Id_vendor
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_vendor = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_vendor_Table = dw_padel_analytics_Database{[Name="dim_vendor",Kind="Table"]}[Data]
+				in
+				    dim_vendor_Table
+
+	annotation PBI_ResultType = Table
+

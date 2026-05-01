@@ -1,0 +1,112 @@
+table dim_player_ofc
+	lineageTag: afa1d381-aa60-4bbd-bb19-d5ea1a2379f0
+
+	column Name
+		dataType: string
+		lineageTag: 819301cd-9740-4d8d-b8f4-174860fe3dd2
+		summarizeBy: none
+		sourceColumn: Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Points
+		dataType: int64
+		formatString: 0
+		lineageTag: 43ae010b-8ee8-4b3d-a825-3b26fdb85a27
+		summarizeBy: sum
+		sourceColumn: Points
+
+		annotation SummarizationSetBy = Automatic
+
+	column Position
+		dataType: int64
+		formatString: 0
+		lineageTag: 9907fa06-ad76-4db5-ab74-aa629c825514
+		summarizeBy: sum
+		sourceColumn: Position
+
+		annotation SummarizationSetBy = Automatic
+
+	column Move
+		dataType: int64
+		formatString: 0
+		lineageTag: 81212e05-091d-426c-95a1-e547bf48e851
+		summarizeBy: sum
+		sourceColumn: Move
+
+		annotation SummarizationSetBy = Automatic
+
+	column Genre
+		dataType: string
+		lineageTag: 8eda721c-cf80-4454-b556-11b7eceb11bd
+		summarizeBy: none
+		sourceColumn: Genre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Country
+		dataType: int64
+		formatString: 0
+		lineageTag: 027171a8-1dbe-421b-9437-dd45230da606
+		summarizeBy: sum
+		sourceColumn: Id_Country
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_Player
+		dataType: int64
+		formatString: 0
+		lineageTag: 7644c054-9797-43ae-b86a-143b85113ff3
+		summarizeBy: none
+		sourceColumn: Id_Player
+
+		annotation SummarizationSetBy = Automatic
+
+	column Level
+		dataType: string
+		lineageTag: 29771f23-1a45-4545-aec9-e6169d6db840
+		summarizeBy: none
+		sourceColumn: Level
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Active Status' =
+			
+			VAR PlayerID = dim_player_ofc[Id_Player]
+			VAR MatchCount =
+			    CALCULATE(
+			        COUNTROWS(fact_performance),
+			        FILTER(
+			            dim_team_ofc,
+			            dim_team_ofc[Id_Player_1] = PlayerID
+			            || dim_team_ofc[Id_Player_2]= PlayerID
+			        )
+			    )
+			RETURN
+			    IF(MatchCount > 0, "Active", "Inactive")
+		lineageTag: 813dcd6e-06d3-4c7b-b4cc-75eb94c04cd2
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Is Active' =
+			
+			IF(dim_player_ofc[Active Status]= "Active", 1, 0)
+		formatString: 0
+		lineageTag: 9ec11971-4b6d-43f7-b3b3-77f6be562a21
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_player_ofc = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_player_ofc_Table = dw_padel_analytics_Database{[Name="dim_player_ofc",Kind="Table"]}[Data]
+				in
+				    dim_player_ofc_Table
+
+	annotation PBI_ResultType = Table
+

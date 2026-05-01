@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "PADELV1 (1)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1684656e-f873-403a-ba03-1cd26d9e11bc"
+  }
+}

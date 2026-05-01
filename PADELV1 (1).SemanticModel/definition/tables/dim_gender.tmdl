@@ -1,0 +1,30 @@
+table dim_gender
+	lineageTag: 54d74dd5-16d7-4ff7-9120-3ea1d997c24d
+
+	column Gender
+		dataType: string
+		lineageTag: 1a6e910b-9425-4431-bbcf-9e4dfb4c4ff6
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Id_gender
+		dataType: int64
+		formatString: 0
+		lineageTag: 83a9ba51-2ea1-49a5-97e6-1078d9e978f2
+		summarizeBy: none
+		sourceColumn: Id_gender
+
+		annotation SummarizationSetBy = Automatic
+
+	partition dim_gender = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("driver={MySQL ODBC 8.0 Unicode Driver};server=127.0.0.1;port=3306;database=dw_padel_analytics;user=root;dsn=dBASE Files", [HierarchicalNavigation=true]),
+				    dw_padel_analytics_Database = Source{[Name="dw_padel_analytics",Kind="Database"]}[Data],
+				    dim_gender_Table = dw_padel_analytics_Database{[Name="dim_gender",Kind="Table"]}[Data]
+				in
+				    dim_gender_Table
+

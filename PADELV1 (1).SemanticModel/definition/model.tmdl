@@ -1,0 +1,33 @@
+model Model
+	culture: fr-FR
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["dim_countryy","dim_date","dim_gender","dim_padel_info","dim_player_ofc","dim_team_ofc","dim_type_match","dim_tournmant","dim_vendor","fact_equipement","fact_performance"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table dim_countryy
+ref table dim_date
+ref table DateTableTemplate_13df064e-cbdb-471f-8c3a-a66b94a89564
+ref table LocalDateTable_9565889d-4b29-43b9-8b42-6d5eeff67397
+ref table dim_gender
+ref table dim_padel_info
+ref table LocalDateTable_dab5cb8a-ea9c-4cef-b5c2-786bac994bf1
+ref table dim_player_ofc
+ref table dim_team_ofc
+ref table dim_type_match
+ref table dim_tournmant
+ref table dim_vendor
+ref table fact_equipement
+ref table fact_performance
+ref table LocalDateTable_26d6c8a7-3bfa-44a4-ba2a-d5aaa6dfbf9e
+ref table Mesures
+
+ref cultureInfo fr-FR
+
