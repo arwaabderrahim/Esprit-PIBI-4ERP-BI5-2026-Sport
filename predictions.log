@@ -1,0 +1,94 @@
+2026-04-14 20:27:32,604 | ERROR | [CLASSIFICATION] Erreur : X has 3 features, but StandardScaler is expecting 16 features as input.
+2026-04-14 20:38:40,983 | ERROR | [CLASSIFICATION] Erreur : X has 3 features, but StandardScaler is expecting 16 features as input.
+2026-04-14 21:03:38,866 | ERROR | [CLASSIFICATION] Erreur : could not convert string to float: 'string'
+2026-04-14 21:07:06,656 | ERROR | [CLASSIFICATION] Erreur : could not convert string to float: 'H'
+2026-04-14 22:31:58,437 | ERROR | [REGRESSION] Erreur : could not convert string to float: 'string'
+2026-04-14 22:35:29,724 | ERROR | [CLASSIFICATION] Erreur : name 'LabelEncoder' is not defined
+2026-04-14 22:37:19,660 | ERROR | [CLASSIFICATION] Erreur : could not convert string to float: 'string'
+2026-04-14 22:39:20,706 | ERROR | [CLASSIFICATION] Erreur : name 'LabelEncoder' is not defined
+2026-04-14 22:40:54,693 | INFO | [CLASSIFICATION] Input: {'Pts_A': 0.0, 'Pos_A': 0.0, 'Move_A': 0.0, 'Level_A': 0.0, 'Pts_B': 0.0, 'Pos_B': 0.0, 'Move_B': 0.0, 'Level_B': 0.0, 'rank_diff': 0.0, 'pts_diff': 0.0, 'Year': 0, 'Month': 0, 'Quarter': 0, 'IsWeekend': 0, 'Gender': 'string', 'Match_type': 'string'} | Output: {'prediction': 0, 'label': 'Loss \u274c', 'win_probability': 0.0, 'model': 'Logistic Regression + LabelEncoder'}
+2026-04-14 22:41:45,206 | INFO | [CLASSIFICATION] Input: {'Pts_A': 0.0, 'Pos_A': 0.0, 'Move_A': 0.0, 'Level_A': 0.0, 'Pts_B': 0.0, 'Pos_B': 0.0, 'Move_B': 0.0, 'Level_B': 0.0, 'rank_diff': 0.0, 'pts_diff': 0.0, 'Year': 0, 'Month': 0, 'Quarter': 0, 'IsWeekend': 0, 'Gender': 'string', 'Match_type': 'string'} | Output: {'prediction': 0, 'label': 'Loss \u274c', 'win_probability': 0.0, 'model': 'Logistic Regression + LabelEncoder'}
+2026-04-14 22:44:53,063 | INFO | [CLASSIFICATION] Input: {'Pts_A': 145.0, 'Pos_A': 0.0, 'Move_A': 0.0, 'Level_A': 0.0, 'Pts_B': 0.0, 'Pos_B': 0.0, 'Move_B': 0.0, 'Level_B': 0.0, 'rank_diff': 0.0, 'pts_diff': 0.0, 'Year': 0, 'Month': 0, 'Quarter': 0, 'IsWeekend': 0, 'Gender': 'string', 'Match_type': 'string'} | Output: {'prediction': 0, 'label': 'Loss \u274c', 'win_probability': 0.0, 'model': 'Logistic Regression + LabelEncoder'}
+2026-04-24 22:54:24,708 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-24 22:54:24,792 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-24 22:54:24,840 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-24 22:54:24,908 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-24 22:54:30,398 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-24 22:54:30,500 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-24 22:54:30,557 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-24 22:54:30,616 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-24 22:54:47,096 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 22:54:52,734 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 22:54:57,750 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 22:55:03,733 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 22:55:08,752 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 22:55:15,841 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 22:56:33,059 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-24 22:56:33,168 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-24 22:56:33,217 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-24 22:56:33,269 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-24 23:07:41,835 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-24 23:07:41,959 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-24 23:07:42,010 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-24 23:07:42,051 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-24 23:08:21,910 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:08:26,845 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 23:08:31,894 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:08:36,783 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 23:08:41,822 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:08:46,676 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 23:15:24,760 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:15:29,943 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 23:15:34,995 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:15:39,867 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-24 23:15:44,898 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-24 23:15:49,723 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 11:00:15,679 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-25 11:00:15,776 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-25 11:00:15,839 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-25 11:00:15,895 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-25 11:00:21,013 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5526
+2026-04-25 11:24:35,762 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5526
+2026-04-25 11:24:42,307 | INFO | [REGRESSION] Winner_Points=3500.0 | Loser_Points=2800.0 | Prize_Money=8.98 EUR
+2026-04-25 11:24:48,803 | INFO | [CLUSTERING] Points=1500.0 | Position=10.0 | win_rate=0.69 | Cluster=1 | Profil=Joueur elite (top classement)
+2026-04-25 11:24:55,010 | INFO | [TIMESERIES] Periods=6 | Premier mois=2025-05 | Valeur=50.4
+2026-04-25 14:34:50,609 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 14:34:57,407 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 14:35:02,436 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 14:35:08,674 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 14:35:13,720 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 14:35:20,355 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 14:37:05,378 | INFO | [CLASSIFICATION] Pts_A=0.0 | Pts_B=0.0 | pts_diff=0.0 | rank_diff=0.0 | Prediction=Win | Probabilite=0.5101
+2026-04-25 14:37:36,225 | INFO | [TIMESERIES] Periods=6 | Premier mois=2025-05 | Valeur=50.4
+2026-04-25 18:33:34,633 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-25 18:33:34,728 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-25 18:33:34,810 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-25 18:33:34,868 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-25 18:38:39,668 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651
+2026-04-25 18:40:41,784 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651
+2026-04-25 18:43:26,658 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651
+2026-04-25 19:21:50,907 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 19:21:56,812 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 19:22:01,874 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 19:22:06,985 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 19:22:12,008 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-25 19:22:17,084 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-25 19:22:17,128 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651
+2026-04-25 20:06:00,792 | INFO | [REGRESSION] Winner_Points=3500.0 | Loser_Points=2800.0 | Prize_Money=8.98 EUR
+2026-04-25 20:06:46,445 | INFO | [REGRESSION] Winner_Points=0.0 | Loser_Points=0.0 | Prize_Money=5.34 EUR
+2026-04-26 12:15:53,788 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-26 12:16:00,895 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-26 12:16:05,982 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-26 12:16:11,591 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-26 12:16:16,657 | INFO | [RETRAIN] Demande de retrainement recue
+2026-04-26 12:16:21,655 | INFO | [RETRAIN] Status=success | Return code=0
+2026-04-26 12:16:21,715 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651
+2026-04-26 18:54:18,308 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-04-26 18:54:18,414 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-04-26 18:54:18,477 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-04-26 18:54:18,542 | INFO | [STARTUP] Modele Time Series charge avec succes
+2026-04-26 20:26:37,379 | INFO | [REGRESSION] Winner_Points=3500.0 | Loser_Points=2800.0 | Prize_Money=8.98 EUR
+2026-04-26 20:26:53,744 | INFO | [REGRESSION] Winner_Points=3500.0 | Loser_Points=2800.0 | Prize_Money=8.94 EUR
+2026-04-27 09:34:18,781 | INFO | [TIMESERIES] Periods=6 | Premier mois=2025-05 | Valeur=50.4
+2026-04-27 10:07:43,859 | INFO | [CLASSIFICATION] Pts_A=0.0 | Pts_B=0.0 | pts_diff=0.0 | rank_diff=0.0 | Prediction=Loss | Probabilite=0.4958
+2026-04-27 10:08:01,186 | INFO | [CLASSIFICATION] Pts_A=1500.0 | Pts_B=1200.0 | pts_diff=300.0 | rank_diff=3.0 | Prediction=Win | Probabilite=0.5651

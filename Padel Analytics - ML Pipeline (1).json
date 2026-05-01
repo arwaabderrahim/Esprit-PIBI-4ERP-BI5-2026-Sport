@@ -1,0 +1,407 @@
+{
+  "name": "Padel Analytics - ML Pipeline",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks"
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.3,
+      "position": [
+        -544,
+        -240
+      ],
+      "id": "4b02cec6-8dc4-427e-884c-0442d2557957",
+      "name": "Schedule Trigger"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/retrain",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        -304,
+        -240
+      ],
+      "id": "e1e5e305-fb24-4ed2-b61a-b4a1041b40ee",
+      "name": "HTTP Request",
+      "retryOnFail": true,
+      "waitBetweenTries": 5000
+    },
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "padel-prediction",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -368,
+        32
+      ],
+      "id": "d7ced76d-7b89-40f8-943a-2d1169831c6b",
+      "name": "Webhook",
+      "webhookId": "4f7d513b-b00a-4999-b69d-afa646ff4720"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "71e91fae-87fa-4413-8290-a8a11a55f6a0",
+              "name": "pts_diff",
+              "value": "={{ $json.pts_diff }}",
+              "type": "number"
+            },
+            {
+              "id": "a0379862-ee31-4875-a367-f02279fea07f",
+              "name": "rank_diff",
+              "value": "={{ $json.rank_diff }}",
+              "type": "number"
+            },
+            {
+              "id": "5d27bf7a-e204-4b60-b18e-0eff7b93b440",
+              "name": "Pts_B",
+              "value": "={{ $json.Pts_B }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        -144,
+        32
+      ],
+      "id": "5bc5e35e-8571-4e14-bd58-00d1a2e3cfa9",
+      "name": "Edit Fields2"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/predict/classification",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"Pts_A\": 1500,\n  \"Pos_A\": 5,\n  \"Move_A\": 2,\n  \"Level_A\": \"P1\",\n  \"Pts_B\": 1200,\n  \"Pos_B\": 8,\n  \"Move_B\": -1,\n  \"Level_B\": \"P2\",\n  \"rank_diff\": 3,\n  \"pts_diff\": 300,\n  \"Year\": 2026,\n  \"Month\": 4,\n  \"Quarter\": 2,\n  \"IsWeekend\": 0,\n  \"Gender\": \"M\",\n  \"Match_type\": \"singles\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        64,
+        32
+      ],
+      "id": "73eff117-e3f2-42a5-b6a6-33b2c95e46bd",
+      "name": "HTTP Request1"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "0546cabf-8984-4a33-97a3-32c211c0c74e",
+              "name": "result",
+              "value": "={{ $json.label }}",
+              "type": "string"
+            },
+            {
+              "id": "2e13b008-56c1-40fe-98f3-ed47b690bdb2",
+              "name": "probability",
+              "value": "={{ $json.win_probability }}",
+              "type": "number"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        288,
+        32
+      ],
+      "id": "2e21ec97-cd6f-49ab-aec4-f62381cb9cd3",
+      "name": "Edit Fields3"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 3
+          },
+          "conditions": [
+            {
+              "id": "1b2e9aa8-680c-435c-8de1-42f3f5ee1f89",
+              "leftValue": "={{ $json.status }}",
+              "rightValue": "success",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.3,
+      "position": [
+        -112,
+        -240
+      ],
+      "id": "4670b05e-d36e-4475-a2e0-2d7388cd7f32",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "bd1b6f2b-35a6-4cb9-aa21-efe81f34c0ff",
+              "name": "status",
+              "value": "Modèle réentraîné",
+              "type": "string"
+            },
+            {
+              "id": "43a78889-fcf1-45bf-9fcd-0850ac61fc16",
+              "name": "auc",
+              "value": "={{ $json.output }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        80,
+        -288
+      ],
+      "id": "983e5a0c-b4ff-43d5-aeba-fe5b3d315a15",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "792f951b-c3c9-4391-ae74-6525e69b5e1d",
+              "name": "status",
+              "value": "Erreur retraining",
+              "type": "string"
+            },
+            {
+              "id": "ab04b0d9-29ef-4744-b7b7-d66a504e1295",
+              "name": "detail",
+              "value": "={{ $json.error }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        176,
+        -144
+      ],
+      "id": "973f4599-c002-4b45-b531-b264b453b72f",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "http://host.docker.internal:8000/predict/classification",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"Pts_A\": 1500,\n  \"Pos_A\": 5,\n  \"Move_A\": 2,\n  \"Level_A\": \"P1\",\n  \"Pts_B\": 1200,\n  \"Pos_B\": 8,\n  \"Move_B\": -1,\n  \"Level_B\": \"P2\",\n  \"rank_diff\": 3,\n  \"pts_diff\": 300,\n  \"Year\": 2026,\n  \"Month\": 4,\n  \"Quarter\": 2,\n  \"IsWeekend\": 0,\n  \"Gender\": \"M\",\n  \"Match_type\": \"singles\"\n}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.4,
+      "position": [
+        256,
+        -304
+      ],
+      "id": "833bf275-c923-4767-ab91-0fe061b22021",
+      "name": "HTTP Request2"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "b830685e-ee11-49d4-a0b1-dedeb98843fd",
+              "name": "prediction_result",
+              "value": "={{ $json.label }}",
+              "type": "string"
+            },
+            {
+              "id": "467da147-03bc-4c04-9e3f-e901fb1ea853",
+              "name": "win_probability",
+              "value": "={{ $json.win_probability }}",
+              "type": "number"
+            },
+            {
+              "id": "782c4efd-be47-4b55-a6ef-abb05ffa0cd5",
+              "name": "model_used",
+              "value": "={{ $json.model }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        416,
+        -304
+      ],
+      "id": "07d1ef0d-5c22-4568-98ea-6cde75420cae",
+      "name": "Edit Fields4"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields2": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request1": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields3": {
+      "main": [
+        []
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        []
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request2": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields4",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "timeSavedMode": "fixed",
+    "errorWorkflow": "zeiOzJ0RO5wdm1sx",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "versionId": "ed0c8ee7-890c-4f2c-92f6-19cdbe0224f2",
+  "meta": {
+    "instanceId": "76458dcd0135243ca8638f5454ef414f62110db184dc295526419fb1d4e7340b"
+  },
+  "id": "eln1vy1PYRV9Vpc8",
+  "tags": []
+}

@@ -1,0 +1,2663 @@
+2026-04-18 19:06:23,377 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:06:23,510 | INFO | Connexion MySQL réussie
+2026-04-18 19:06:25,580 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-18 19:07:14,591 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:07:14,659 | INFO | Connexion MySQL réussie
+2026-04-18 19:07:16,722 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-18 19:08:08,817 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:08:09,004 | INFO | Connexion MySQL réussie
+2026-04-18 19:08:11,433 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-18 19:08:25,216 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:08:25,294 | INFO | Connexion MySQL réussie
+2026-04-18 19:08:25,514 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:08:25,516 | INFO | Première exécution
+2026-04-18 19:08:26,968 | INFO | Dataset : 681 exemples
+2026-04-18 19:08:27,000 | INFO | ROC-AUC : 0.7236
+2026-04-18 19:08:27,010 | INFO | Sauvegardé : 20260418_1908 | AUC=0.7236
+2026-04-18 19:09:07,405 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:09:07,505 | INFO | Connexion MySQL réussie
+2026-04-18 19:09:07,690 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:09:07,691 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:09:07,691 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:10:06,623 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:10:06,709 | INFO | Connexion MySQL réussie
+2026-04-18 19:10:06,880 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:10:06,881 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:10:06,881 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:11:06,365 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:11:06,439 | INFO | Connexion MySQL réussie
+2026-04-18 19:11:06,594 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:11:06,595 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:11:06,595 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:12:07,613 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:12:07,726 | INFO | Connexion MySQL réussie
+2026-04-18 19:12:08,029 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:12:08,030 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:12:08,030 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:13:06,383 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:13:06,441 | INFO | Connexion MySQL réussie
+2026-04-18 19:13:06,582 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:13:06,583 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:13:06,583 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:14:08,090 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:14:08,201 | INFO | Connexion MySQL réussie
+2026-04-18 19:14:08,387 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:14:08,389 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:14:08,389 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:15:07,150 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:15:07,220 | INFO | Connexion MySQL réussie
+2026-04-18 19:15:07,372 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:15:07,374 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:15:07,374 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:16:07,211 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:16:07,323 | INFO | Connexion MySQL réussie
+2026-04-18 19:16:07,513 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:16:07,514 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:16:07,514 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:17:06,953 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:17:07,027 | INFO | Connexion MySQL réussie
+2026-04-18 19:17:07,170 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:17:07,171 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:17:07,172 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:18:07,140 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:18:07,209 | INFO | Connexion MySQL réussie
+2026-04-18 19:18:07,341 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:18:07,342 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:18:07,342 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:19:06,879 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:19:06,954 | INFO | Connexion MySQL réussie
+2026-04-18 19:19:07,138 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:19:07,139 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:19:07,139 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:20:06,406 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:20:06,493 | INFO | Connexion MySQL réussie
+2026-04-18 19:20:06,685 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:20:06,686 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:20:06,686 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:21:06,733 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:21:06,863 | INFO | Connexion MySQL réussie
+2026-04-18 19:21:07,012 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:21:07,014 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:21:07,014 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:22:07,288 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:22:07,348 | INFO | Connexion MySQL réussie
+2026-04-18 19:22:07,470 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:22:07,471 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:22:07,471 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:23:07,679 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:23:07,773 | INFO | Connexion MySQL réussie
+2026-04-18 19:23:07,959 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:23:07,961 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:23:07,961 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:24:06,541 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:24:06,642 | INFO | Connexion MySQL réussie
+2026-04-18 19:24:06,805 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:24:06,807 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:24:06,807 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:25:07,083 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:25:07,159 | INFO | Connexion MySQL réussie
+2026-04-18 19:25:07,305 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:25:07,306 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:25:07,306 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:26:06,368 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:26:06,430 | INFO | Connexion MySQL réussie
+2026-04-18 19:26:06,577 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:26:06,578 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:26:06,578 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:27:06,352 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:27:06,418 | INFO | Connexion MySQL réussie
+2026-04-18 19:27:06,559 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:27:06,560 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:27:06,560 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:28:07,093 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:28:07,187 | INFO | Connexion MySQL réussie
+2026-04-18 19:28:07,384 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:28:07,385 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:28:07,385 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:29:06,653 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:29:06,745 | INFO | Connexion MySQL réussie
+2026-04-18 19:29:06,887 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:29:06,888 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:29:06,888 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:30:06,148 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:30:06,215 | INFO | Connexion MySQL réussie
+2026-04-18 19:30:06,355 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:30:06,356 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:30:06,356 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:31:06,381 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:31:06,453 | INFO | Connexion MySQL réussie
+2026-04-18 19:31:06,606 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:31:06,607 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:31:06,608 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:32:07,600 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:32:07,691 | INFO | Connexion MySQL réussie
+2026-04-18 19:32:07,862 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:32:07,863 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:32:07,863 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:33:06,782 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:33:06,843 | INFO | Connexion MySQL réussie
+2026-04-18 19:33:06,981 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:33:06,982 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:33:06,982 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:34:06,448 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:34:06,514 | INFO | Connexion MySQL réussie
+2026-04-18 19:34:06,659 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:34:06,660 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:34:06,660 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:35:06,289 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:35:06,348 | INFO | Connexion MySQL réussie
+2026-04-18 19:35:06,505 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:35:06,506 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:35:06,506 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:36:06,769 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:36:06,855 | INFO | Connexion MySQL réussie
+2026-04-18 19:36:07,023 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:36:07,024 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:36:07,024 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:37:06,198 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:37:06,264 | INFO | Connexion MySQL réussie
+2026-04-18 19:37:06,401 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:37:06,403 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:37:06,404 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:38:06,502 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:38:06,578 | INFO | Connexion MySQL réussie
+2026-04-18 19:38:07,019 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:38:07,020 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:38:07,021 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:39:06,839 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:39:06,913 | INFO | Connexion MySQL réussie
+2026-04-18 19:39:07,163 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:39:07,165 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:39:07,165 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:40:06,498 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:40:06,581 | INFO | Connexion MySQL réussie
+2026-04-18 19:40:07,102 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:40:07,103 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:40:07,103 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:41:06,607 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:41:06,789 | INFO | Connexion MySQL réussie
+2026-04-18 19:41:07,088 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:41:07,089 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:41:07,089 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:42:07,398 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:42:07,468 | INFO | Connexion MySQL réussie
+2026-04-18 19:42:07,611 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:42:07,612 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:42:07,612 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:43:06,606 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:43:06,680 | INFO | Connexion MySQL réussie
+2026-04-18 19:43:06,840 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:43:06,841 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:43:06,841 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:43:26,385 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:43:26,459 | INFO | Connexion MySQL réussie
+2026-04-18 19:43:26,607 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:43:26,608 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:43:26,608 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:43:34,694 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:43:34,804 | INFO | Connexion MySQL réussie
+2026-04-18 19:43:35,007 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:43:35,008 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:43:35,008 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:43:42,912 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:43:42,985 | INFO | Connexion MySQL réussie
+2026-04-18 19:43:43,173 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:43:43,175 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:43:43,175 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:44:08,465 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:44:08,579 | INFO | Connexion MySQL réussie
+2026-04-18 19:44:08,855 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:44:08,857 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:44:08,857 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:47:07,143 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:47:07,208 | INFO | Connexion MySQL réussie
+2026-04-18 19:47:07,352 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:47:07,353 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:47:07,353 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:48:06,724 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:48:06,801 | INFO | Connexion MySQL réussie
+2026-04-18 19:48:06,969 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:48:06,970 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:48:06,970 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:49:07,077 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:49:07,154 | INFO | Connexion MySQL réussie
+2026-04-18 19:49:07,354 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:49:07,355 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:49:07,355 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:07,060 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:07,122 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:07,270 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:07,272 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:07,272 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:19,317 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:19,385 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:19,519 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:19,520 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:19,521 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:27,174 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:27,256 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:27,409 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:27,410 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:27,410 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:35,046 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:35,120 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:35,266 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:35,267 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:35,267 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:50,781 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:50,848 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:51,002 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:51,004 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:51,004 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:50:58,915 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:50:58,982 | INFO | Connexion MySQL réussie
+2026-04-18 19:50:59,133 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:50:59,134 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:50:59,134 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:51:07,112 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:51:07,188 | INFO | Connexion MySQL réussie
+2026-04-18 19:51:07,374 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:51:07,375 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:51:07,375 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:51:07,453 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:51:07,540 | INFO | Connexion MySQL réussie
+2026-04-18 19:51:07,728 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:51:07,729 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:51:07,729 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:52:07,495 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:52:07,591 | INFO | Connexion MySQL réussie
+2026-04-18 19:52:07,797 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:52:07,799 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:52:07,799 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:53:06,096 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:53:06,168 | INFO | Connexion MySQL réussie
+2026-04-18 19:53:06,341 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:53:06,343 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:53:06,343 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:54:06,107 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:54:06,167 | INFO | Connexion MySQL réussie
+2026-04-18 19:54:06,350 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:54:06,351 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:54:06,351 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:55:06,130 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:55:06,189 | INFO | Connexion MySQL réussie
+2026-04-18 19:55:06,374 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:55:06,376 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:55:06,376 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:56:06,045 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:56:06,111 | INFO | Connexion MySQL réussie
+2026-04-18 19:56:06,291 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:56:06,292 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:56:06,292 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:57:06,050 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:57:06,111 | INFO | Connexion MySQL réussie
+2026-04-18 19:57:06,231 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:57:06,232 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:57:06,232 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:58:06,073 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:58:06,136 | INFO | Connexion MySQL réussie
+2026-04-18 19:58:06,284 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:58:06,285 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:58:06,285 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 19:59:06,534 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 19:59:06,669 | INFO | Connexion MySQL réussie
+2026-04-18 19:59:06,798 | INFO | Données chargées : 1538 lignes
+2026-04-18 19:59:06,799 | INFO | Pas de drift : points=0.0%
+2026-04-18 19:59:06,799 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:00:06,300 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:00:06,399 | INFO | Connexion MySQL réussie
+2026-04-18 20:00:06,624 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:00:06,625 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:00:06,626 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:01:06,422 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:01:06,507 | INFO | Connexion MySQL réussie
+2026-04-18 20:01:06,701 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:01:06,703 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:01:06,703 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:02:06,292 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:02:06,356 | INFO | Connexion MySQL réussie
+2026-04-18 20:02:06,510 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:02:06,511 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:02:06,511 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:03:06,432 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:03:06,510 | INFO | Connexion MySQL réussie
+2026-04-18 20:03:06,673 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:03:06,675 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:03:06,675 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:04:06,472 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:04:06,546 | INFO | Connexion MySQL réussie
+2026-04-18 20:04:06,741 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:04:06,743 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:04:06,743 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:05:06,311 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:05:06,370 | INFO | Connexion MySQL réussie
+2026-04-18 20:05:06,515 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:05:06,516 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:05:06,516 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:06:06,191 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:06:06,254 | INFO | Connexion MySQL réussie
+2026-04-18 20:06:06,387 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:06:06,388 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:06:06,389 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:07:06,551 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:07:06,626 | INFO | Connexion MySQL réussie
+2026-04-18 20:07:06,791 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:07:06,792 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:07:06,792 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:08:06,709 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:08:06,781 | INFO | Connexion MySQL réussie
+2026-04-18 20:08:06,993 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:08:06,995 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:08:06,995 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:09:06,210 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:09:06,276 | INFO | Connexion MySQL réussie
+2026-04-18 20:09:06,421 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:09:06,422 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:09:06,422 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:10:06,169 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:10:06,231 | INFO | Connexion MySQL réussie
+2026-04-18 20:10:06,365 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:10:06,367 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:10:06,367 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:11:06,706 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:11:06,778 | INFO | Connexion MySQL réussie
+2026-04-18 20:11:06,948 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:11:06,949 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:11:06,949 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:12:06,394 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:12:06,481 | INFO | Connexion MySQL réussie
+2026-04-18 20:12:06,667 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:12:06,668 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:12:06,668 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:13:06,248 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:13:06,308 | INFO | Connexion MySQL réussie
+2026-04-18 20:13:06,442 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:13:06,443 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:13:06,443 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:14:07,466 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:14:07,613 | INFO | Connexion MySQL réussie
+2026-04-18 20:14:07,931 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:14:07,933 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:14:07,933 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:15:06,760 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:15:06,894 | INFO | Connexion MySQL réussie
+2026-04-18 20:15:07,041 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:15:07,043 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:15:07,043 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:16:07,067 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:16:07,171 | INFO | Connexion MySQL réussie
+2026-04-18 20:16:07,374 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:16:07,376 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:16:07,376 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:17:06,382 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:17:06,461 | INFO | Connexion MySQL réussie
+2026-04-18 20:17:06,594 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:17:06,595 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:17:06,595 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:18:06,595 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:18:06,673 | INFO | Connexion MySQL réussie
+2026-04-18 20:18:06,836 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:18:06,838 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:18:06,838 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:19:06,660 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:19:06,723 | INFO | Connexion MySQL réussie
+2026-04-18 20:19:06,866 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:19:06,868 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:19:06,868 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:20:06,375 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:20:06,452 | INFO | Connexion MySQL réussie
+2026-04-18 20:20:06,615 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:20:06,616 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:20:06,617 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:21:06,422 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:21:06,507 | INFO | Connexion MySQL réussie
+2026-04-18 20:21:06,652 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:21:06,653 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:21:06,653 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:22:06,581 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:22:06,642 | INFO | Connexion MySQL réussie
+2026-04-18 20:22:06,771 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:22:06,772 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:22:06,772 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:23:06,547 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:23:06,615 | INFO | Connexion MySQL réussie
+2026-04-18 20:23:06,762 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:23:06,763 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:23:06,764 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:24:06,774 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:24:06,845 | INFO | Connexion MySQL réussie
+2026-04-18 20:24:06,999 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:24:07,001 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:24:07,001 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:25:06,499 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:25:06,598 | INFO | Connexion MySQL réussie
+2026-04-18 20:25:06,757 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:25:06,758 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:25:06,758 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:26:06,298 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:26:06,379 | INFO | Connexion MySQL réussie
+2026-04-18 20:26:06,569 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:26:06,570 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:26:06,571 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:27:06,662 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:27:06,728 | INFO | Connexion MySQL réussie
+2026-04-18 20:27:06,870 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:27:06,871 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:27:06,871 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:28:06,796 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:28:06,880 | INFO | Connexion MySQL réussie
+2026-04-18 20:28:07,046 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:28:07,047 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:28:07,047 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:29:06,595 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:29:06,666 | INFO | Connexion MySQL réussie
+2026-04-18 20:29:06,810 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:29:06,811 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:29:06,811 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:30:06,243 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:30:06,305 | INFO | Connexion MySQL réussie
+2026-04-18 20:30:06,487 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:30:06,488 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:30:06,489 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:31:06,722 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:31:06,831 | INFO | Connexion MySQL réussie
+2026-04-18 20:31:06,995 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:31:06,997 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:31:06,997 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:32:06,792 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:32:06,901 | INFO | Connexion MySQL réussie
+2026-04-18 20:32:07,103 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:32:07,104 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:32:07,104 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:33:06,397 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:33:06,465 | INFO | Connexion MySQL réussie
+2026-04-18 20:33:06,645 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:33:06,646 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:33:06,646 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:34:06,415 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:34:06,483 | INFO | Connexion MySQL réussie
+2026-04-18 20:34:06,628 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:34:06,629 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:34:06,630 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:35:06,677 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:35:06,759 | INFO | Connexion MySQL réussie
+2026-04-18 20:35:06,913 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:35:06,915 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:35:06,915 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:36:06,484 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:36:06,562 | INFO | Connexion MySQL réussie
+2026-04-18 20:36:06,729 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:36:06,730 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:36:06,730 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:37:06,397 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:37:06,465 | INFO | Connexion MySQL réussie
+2026-04-18 20:37:06,606 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:37:06,607 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:37:06,608 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:38:06,362 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:38:06,431 | INFO | Connexion MySQL réussie
+2026-04-18 20:38:06,594 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:38:06,595 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:38:06,595 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:39:06,896 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:39:07,008 | INFO | Connexion MySQL réussie
+2026-04-18 20:39:07,177 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:39:07,178 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:39:07,178 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:40:06,275 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:40:06,357 | INFO | Connexion MySQL réussie
+2026-04-18 20:40:06,520 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:40:06,521 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:40:06,521 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:41:06,288 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:41:06,352 | INFO | Connexion MySQL réussie
+2026-04-18 20:41:06,499 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:41:06,500 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:41:06,500 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:42:06,447 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:42:06,518 | INFO | Connexion MySQL réussie
+2026-04-18 20:42:06,678 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:42:06,679 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:42:06,679 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:43:06,739 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:43:06,801 | INFO | Connexion MySQL réussie
+2026-04-18 20:43:06,928 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:43:06,929 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:43:06,929 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:44:06,355 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:44:06,443 | INFO | Connexion MySQL réussie
+2026-04-18 20:44:06,604 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:44:06,605 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:44:06,605 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:45:06,474 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:45:06,556 | INFO | Connexion MySQL réussie
+2026-04-18 20:45:06,718 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:45:06,719 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:45:06,719 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:46:06,483 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:46:06,557 | INFO | Connexion MySQL réussie
+2026-04-18 20:46:06,697 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:46:06,698 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:46:06,699 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:47:06,542 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:47:06,601 | INFO | Connexion MySQL réussie
+2026-04-18 20:47:06,810 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:47:06,812 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:47:06,812 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:48:06,446 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:48:06,542 | INFO | Connexion MySQL réussie
+2026-04-18 20:48:06,734 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:48:06,735 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:48:06,735 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:49:06,592 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:49:06,656 | INFO | Connexion MySQL réussie
+2026-04-18 20:49:06,804 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:49:06,805 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:49:06,805 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:50:06,464 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:50:06,528 | INFO | Connexion MySQL réussie
+2026-04-18 20:50:06,670 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:50:06,671 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:50:06,671 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:51:06,542 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:51:06,608 | INFO | Connexion MySQL réussie
+2026-04-18 20:51:06,757 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:51:06,758 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:51:06,758 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:52:06,351 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:52:06,417 | INFO | Connexion MySQL réussie
+2026-04-18 20:52:06,602 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:52:06,604 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:52:06,604 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:53:06,684 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:53:06,746 | INFO | Connexion MySQL réussie
+2026-04-18 20:53:06,891 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:53:06,892 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:53:06,892 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:54:06,480 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:54:06,562 | INFO | Connexion MySQL réussie
+2026-04-18 20:54:06,717 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:54:06,718 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:54:06,719 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:55:06,584 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:55:06,647 | INFO | Connexion MySQL réussie
+2026-04-18 20:55:06,789 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:55:06,790 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:55:06,790 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:56:06,479 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:56:06,574 | INFO | Connexion MySQL réussie
+2026-04-18 20:56:06,769 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:56:06,770 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:56:06,770 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:57:06,339 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:57:06,404 | INFO | Connexion MySQL réussie
+2026-04-18 20:57:06,557 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:57:06,558 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:57:06,558 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:58:06,342 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:58:06,406 | INFO | Connexion MySQL réussie
+2026-04-18 20:58:06,675 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:58:06,676 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:58:06,676 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 20:59:06,852 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 20:59:06,944 | INFO | Connexion MySQL réussie
+2026-04-18 20:59:07,088 | INFO | Données chargées : 1538 lignes
+2026-04-18 20:59:07,089 | INFO | Pas de drift : points=0.0%
+2026-04-18 20:59:07,089 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:00:06,681 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:00:06,757 | INFO | Connexion MySQL réussie
+2026-04-18 21:00:06,928 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:00:06,929 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:00:06,929 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:01:06,374 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:01:06,441 | INFO | Connexion MySQL réussie
+2026-04-18 21:01:06,587 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:01:06,588 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:01:06,589 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:02:06,181 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:02:06,255 | INFO | Connexion MySQL réussie
+2026-04-18 21:02:06,468 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:02:06,470 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:02:06,470 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:03:06,905 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:03:06,981 | INFO | Connexion MySQL réussie
+2026-04-18 21:03:07,133 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:03:07,134 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:03:07,134 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:04:06,317 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:04:06,391 | INFO | Connexion MySQL réussie
+2026-04-18 21:04:06,624 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:04:06,626 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:04:06,626 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:05:06,285 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:05:06,352 | INFO | Connexion MySQL réussie
+2026-04-18 21:05:06,555 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:05:06,557 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:05:06,557 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:06:06,447 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:06:06,555 | INFO | Connexion MySQL réussie
+2026-04-18 21:06:06,755 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:06:06,756 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:06:06,757 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:07:06,814 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:07:06,881 | INFO | Connexion MySQL réussie
+2026-04-18 21:07:07,013 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:07:07,015 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:07:07,015 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:08:06,112 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:08:06,194 | INFO | Connexion MySQL réussie
+2026-04-18 21:08:06,373 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:08:06,374 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:08:06,374 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:09:06,260 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:09:06,378 | INFO | Connexion MySQL réussie
+2026-04-18 21:09:06,523 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:09:06,524 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:09:06,524 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:10:06,570 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:10:06,668 | INFO | Connexion MySQL réussie
+2026-04-18 21:10:06,934 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:10:06,935 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:10:06,935 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:11:06,595 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:11:06,656 | INFO | Connexion MySQL réussie
+2026-04-18 21:11:06,870 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:11:06,871 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:11:06,871 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:12:06,185 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:12:06,252 | INFO | Connexion MySQL réussie
+2026-04-18 21:12:06,418 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:12:06,419 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:12:06,419 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:13:06,323 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:13:06,405 | INFO | Connexion MySQL réussie
+2026-04-18 21:13:06,633 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:13:06,635 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:13:06,635 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:14:07,161 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:14:07,294 | INFO | Connexion MySQL réussie
+2026-04-18 21:14:07,613 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:14:07,614 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:14:07,614 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:15:06,555 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:15:06,660 | INFO | Connexion MySQL réussie
+2026-04-18 21:15:06,824 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:15:06,825 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:15:06,825 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:16:06,261 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:16:06,322 | INFO | Connexion MySQL réussie
+2026-04-18 21:16:06,467 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:16:06,468 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:16:06,468 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:17:07,367 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:17:07,436 | INFO | Connexion MySQL réussie
+2026-04-18 21:17:07,581 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:17:07,581 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:17:07,582 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:18:06,176 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:18:06,240 | INFO | Connexion MySQL réussie
+2026-04-18 21:18:06,391 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:18:06,392 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:18:06,392 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:19:06,424 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:19:06,494 | INFO | Connexion MySQL réussie
+2026-04-18 21:19:06,638 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:19:06,639 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:19:06,639 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:20:06,328 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:20:06,401 | INFO | Connexion MySQL réussie
+2026-04-18 21:20:06,551 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:20:06,552 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:20:06,552 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:21:06,300 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:21:06,418 | INFO | Connexion MySQL réussie
+2026-04-18 21:21:06,616 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:21:06,617 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:21:06,618 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:22:06,257 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:22:06,320 | INFO | Connexion MySQL réussie
+2026-04-18 21:22:06,478 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:22:06,479 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:22:06,479 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:23:06,520 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:23:06,586 | INFO | Connexion MySQL réussie
+2026-04-18 21:23:06,736 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:23:06,737 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:23:06,737 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:24:06,422 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:24:06,504 | INFO | Connexion MySQL réussie
+2026-04-18 21:24:06,706 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:24:06,707 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:24:06,707 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:25:06,131 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:25:06,192 | INFO | Connexion MySQL réussie
+2026-04-18 21:25:06,330 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:25:06,331 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:25:06,331 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:26:06,120 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:26:06,186 | INFO | Connexion MySQL réussie
+2026-04-18 21:26:06,330 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:26:06,331 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:26:06,331 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 21:27:08,281 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 21:27:08,374 | INFO | Connexion MySQL réussie
+2026-04-18 21:27:08,545 | INFO | Données chargées : 1538 lignes
+2026-04-18 21:27:08,546 | INFO | Pas de drift : points=0.0%
+2026-04-18 21:27:08,546 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:40:28,490 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:40:28,585 | INFO | Connexion MySQL réussie
+2026-04-18 22:40:28,765 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:40:28,766 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:40:28,767 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:41:06,083 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:41:06,143 | INFO | Connexion MySQL réussie
+2026-04-18 22:41:06,271 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:41:06,272 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:41:06,272 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:42:06,291 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:42:06,349 | INFO | Connexion MySQL réussie
+2026-04-18 22:42:06,491 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:42:06,492 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:42:06,492 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:43:06,618 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:43:06,718 | INFO | Connexion MySQL réussie
+2026-04-18 22:43:06,923 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:43:06,924 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:43:06,924 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:44:06,138 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:44:06,197 | INFO | Connexion MySQL réussie
+2026-04-18 22:44:06,343 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:44:06,344 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:44:06,344 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:45:06,047 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:45:06,105 | INFO | Connexion MySQL réussie
+2026-04-18 22:45:06,235 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:45:06,236 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:45:06,236 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:46:06,907 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:46:06,970 | INFO | Connexion MySQL réussie
+2026-04-18 22:46:07,107 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:46:07,108 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:46:07,108 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:47:08,716 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:47:08,800 | INFO | Connexion MySQL réussie
+2026-04-18 22:47:09,014 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:47:09,016 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:47:09,016 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:48:06,297 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:48:06,365 | INFO | Connexion MySQL réussie
+2026-04-18 22:48:06,515 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:48:06,517 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:48:06,517 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:49:06,487 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:49:06,553 | INFO | Connexion MySQL réussie
+2026-04-18 22:49:06,707 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:49:06,708 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:49:06,708 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:50:06,605 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:50:06,671 | INFO | Connexion MySQL réussie
+2026-04-18 22:50:06,809 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:50:06,810 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:50:06,810 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:51:06,100 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:51:06,180 | INFO | Connexion MySQL réussie
+2026-04-18 22:51:06,382 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:51:06,383 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:51:06,383 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:52:06,207 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:52:06,304 | INFO | Connexion MySQL réussie
+2026-04-18 22:52:06,722 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:52:06,723 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:52:06,723 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:53:06,590 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:53:06,655 | INFO | Connexion MySQL réussie
+2026-04-18 22:53:06,798 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:53:06,799 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:53:06,799 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:54:07,518 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:54:07,611 | INFO | Connexion MySQL réussie
+2026-04-18 22:54:07,822 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:54:07,824 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:54:07,824 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:55:06,170 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:55:06,233 | INFO | Connexion MySQL réussie
+2026-04-18 22:55:06,386 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:55:06,387 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:55:06,387 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:56:05,978 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:56:06,036 | INFO | Connexion MySQL réussie
+2026-04-18 22:56:06,168 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:56:06,169 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:56:06,169 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:57:05,993 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:57:06,052 | INFO | Connexion MySQL réussie
+2026-04-18 22:57:06,189 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:57:06,190 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:57:06,190 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:58:06,341 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:58:06,399 | INFO | Connexion MySQL réussie
+2026-04-18 22:58:06,548 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:58:06,550 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:58:06,550 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 22:59:07,335 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 22:59:07,431 | INFO | Connexion MySQL réussie
+2026-04-18 22:59:08,084 | INFO | Données chargées : 1538 lignes
+2026-04-18 22:59:08,085 | INFO | Pas de drift : points=0.0%
+2026-04-18 22:59:08,086 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:00:07,288 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:00:07,390 | INFO | Connexion MySQL réussie
+2026-04-18 23:00:07,567 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:00:07,568 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:00:07,568 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:01:06,804 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:01:06,937 | INFO | Connexion MySQL réussie
+2026-04-18 23:01:07,070 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:01:07,072 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:01:07,072 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:02:06,290 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:02:06,346 | INFO | Connexion MySQL réussie
+2026-04-18 23:02:06,485 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:02:06,486 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:02:06,486 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:03:09,524 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:03:09,639 | INFO | Connexion MySQL réussie
+2026-04-18 23:03:09,902 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:03:09,903 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:03:09,904 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:04:06,285 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:04:06,346 | INFO | Connexion MySQL réussie
+2026-04-18 23:04:06,498 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:04:06,499 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:04:06,499 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:05:06,939 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:05:07,070 | INFO | Connexion MySQL réussie
+2026-04-18 23:05:07,237 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:05:07,238 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:05:07,238 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:06:06,383 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:06:06,443 | INFO | Connexion MySQL réussie
+2026-04-18 23:06:06,612 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:06:06,614 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:06:06,614 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:07:06,596 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:07:06,676 | INFO | Connexion MySQL réussie
+2026-04-18 23:07:06,852 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:07:06,854 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:07:06,854 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:08:06,103 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:08:06,161 | INFO | Connexion MySQL réussie
+2026-04-18 23:08:06,311 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:08:06,312 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:08:06,312 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:09:11,063 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:09:11,233 | INFO | Connexion MySQL réussie
+2026-04-18 23:09:11,481 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:09:11,483 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:09:11,483 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:10:07,739 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:10:07,826 | INFO | Connexion MySQL réussie
+2026-04-18 23:10:08,012 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:10:08,013 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:10:08,013 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:11:06,524 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:11:06,581 | INFO | Connexion MySQL réussie
+2026-04-18 23:11:06,703 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:11:06,704 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:11:06,704 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:18:00,513 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:18:00,588 | INFO | Connexion MySQL réussie
+2026-04-18 23:18:00,835 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:18:00,836 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:18:00,836 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:18:07,341 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:18:07,442 | INFO | Connexion MySQL réussie
+2026-04-18 23:18:07,624 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:18:07,625 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:18:07,625 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:19:07,157 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:19:07,274 | INFO | Connexion MySQL réussie
+2026-04-18 23:19:07,453 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:19:07,454 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:19:07,454 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:20:06,837 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:20:06,910 | INFO | Connexion MySQL réussie
+2026-04-18 23:20:07,075 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:20:07,076 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:20:07,076 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:21:06,597 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:21:06,668 | INFO | Connexion MySQL réussie
+2026-04-18 23:21:06,811 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:21:06,812 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:21:06,812 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:22:06,531 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:22:06,627 | INFO | Connexion MySQL réussie
+2026-04-18 23:22:06,770 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:22:06,772 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:22:06,772 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:23:07,277 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:23:07,381 | INFO | Connexion MySQL réussie
+2026-04-18 23:23:07,539 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:23:07,540 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:23:07,540 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:46:47,636 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:46:47,777 | INFO | Connexion MySQL réussie
+2026-04-18 23:46:48,105 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:46:48,106 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:46:48,107 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:46:58,087 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:46:58,220 | INFO | Connexion MySQL réussie
+2026-04-18 23:46:58,507 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:46:58,508 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:46:58,508 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:47:07,721 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:47:07,894 | INFO | Connexion MySQL réussie
+2026-04-18 23:47:08,222 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:47:08,224 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:47:08,224 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:47:46,548 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:47:46,630 | INFO | Connexion MySQL réussie
+2026-04-18 23:47:46,783 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:47:46,784 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:47:46,784 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:47:57,689 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:47:57,803 | INFO | Connexion MySQL réussie
+2026-04-18 23:47:58,039 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:47:58,041 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:47:58,041 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:48:06,744 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:48:06,831 | INFO | Connexion MySQL réussie
+2026-04-18 23:48:07,030 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:48:07,032 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:48:07,032 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:48:33,207 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:48:33,355 | INFO | Connexion MySQL réussie
+2026-04-18 23:48:33,631 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:48:33,632 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:48:33,632 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:48:44,067 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:48:44,263 | INFO | Connexion MySQL réussie
+2026-04-18 23:48:44,693 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:48:44,695 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:48:44,696 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:48:49,368 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:48:49,468 | INFO | Connexion MySQL réussie
+2026-04-18 23:48:49,662 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:48:49,663 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:48:49,663 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:48:57,451 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:48:57,644 | INFO | Connexion MySQL réussie
+2026-04-18 23:48:58,298 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:48:58,299 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:48:58,299 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:49:01,620 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:49:01,782 | INFO | Connexion MySQL réussie
+2026-04-18 23:49:02,045 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:49:02,046 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:49:02,046 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:49:11,115 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:49:11,208 | INFO | Connexion MySQL réussie
+2026-04-18 23:49:11,428 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:49:11,430 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:49:11,430 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:49:49,090 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:49:49,237 | INFO | Connexion MySQL réussie
+2026-04-18 23:49:49,549 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:49:49,552 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:49:49,552 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:49:59,129 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:49:59,210 | INFO | Connexion MySQL réussie
+2026-04-18 23:49:59,353 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:49:59,354 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:49:59,354 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:50:07,191 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:50:07,528 | INFO | Connexion MySQL réussie
+2026-04-18 23:50:07,816 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:50:07,818 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:50:07,818 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:50:47,541 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:50:47,641 | INFO | Connexion MySQL réussie
+2026-04-18 23:50:47,825 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:50:47,827 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:50:47,827 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:50:56,143 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:50:56,295 | INFO | Connexion MySQL réussie
+2026-04-18 23:50:56,528 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:50:56,529 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:50:56,529 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:51:06,012 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:51:06,185 | INFO | Connexion MySQL réussie
+2026-04-18 23:51:06,745 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:51:06,747 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:51:06,747 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:51:46,580 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:51:46,659 | INFO | Connexion MySQL réussie
+2026-04-18 23:51:46,827 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:51:46,828 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:51:46,828 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:51:55,522 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:51:55,668 | INFO | Connexion MySQL réussie
+2026-04-18 23:51:55,894 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:51:55,896 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:51:55,896 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:52:03,935 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:52:04,003 | INFO | Connexion MySQL réussie
+2026-04-18 23:52:04,146 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:52:04,147 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:52:04,147 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:52:46,226 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:52:46,342 | INFO | Connexion MySQL réussie
+2026-04-18 23:52:46,504 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:52:46,505 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:52:46,505 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:52:57,611 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:52:57,822 | INFO | Connexion MySQL réussie
+2026-04-18 23:52:58,139 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:52:58,141 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:52:58,141 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:53:06,817 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:53:06,902 | INFO | Connexion MySQL réussie
+2026-04-18 23:53:07,052 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:53:07,053 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:53:07,053 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:53:50,832 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:53:51,036 | INFO | Connexion MySQL réussie
+2026-04-18 23:53:51,745 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:53:51,746 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:53:51,746 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:54:00,780 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:54:00,892 | INFO | Connexion MySQL réussie
+2026-04-18 23:54:01,180 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:54:01,181 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:54:01,181 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:54:08,786 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:54:08,865 | INFO | Connexion MySQL réussie
+2026-04-18 23:54:09,016 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:54:09,018 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:54:09,018 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:54:46,298 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:54:46,410 | INFO | Connexion MySQL réussie
+2026-04-18 23:54:46,571 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:54:46,573 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:54:46,573 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:54:54,260 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:54:54,326 | INFO | Connexion MySQL réussie
+2026-04-18 23:54:54,453 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:54:54,454 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:54:54,454 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:55:02,475 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:55:02,534 | INFO | Connexion MySQL réussie
+2026-04-18 23:55:02,895 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:55:02,896 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:55:02,897 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:55:47,144 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:55:47,210 | INFO | Connexion MySQL réussie
+2026-04-18 23:55:47,369 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:55:47,370 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:55:47,370 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:55:55,545 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:55:55,613 | INFO | Connexion MySQL réussie
+2026-04-18 23:55:55,747 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:55:55,748 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:55:55,748 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:56:03,904 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:56:03,966 | INFO | Connexion MySQL réussie
+2026-04-18 23:56:04,113 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:56:04,114 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:56:04,114 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:56:46,736 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:56:46,796 | INFO | Connexion MySQL réussie
+2026-04-18 23:56:46,939 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:56:46,940 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:56:46,940 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:56:54,470 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:56:54,537 | INFO | Connexion MySQL réussie
+2026-04-18 23:56:54,692 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:56:54,693 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:56:54,693 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:57:03,173 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:57:03,231 | INFO | Connexion MySQL réussie
+2026-04-18 23:57:03,367 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:57:03,368 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:57:03,368 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:57:47,803 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:57:47,861 | INFO | Connexion MySQL réussie
+2026-04-18 23:57:48,003 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:57:48,004 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:57:48,004 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:57:55,737 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:57:55,800 | INFO | Connexion MySQL réussie
+2026-04-18 23:57:55,931 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:57:55,932 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:57:55,932 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:58:04,443 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:58:04,508 | INFO | Connexion MySQL réussie
+2026-04-18 23:58:04,658 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:58:04,659 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:58:04,659 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:58:46,262 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:58:46,329 | INFO | Connexion MySQL réussie
+2026-04-18 23:58:46,479 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:58:46,480 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:58:46,480 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:58:54,028 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:58:54,087 | INFO | Connexion MySQL réussie
+2026-04-18 23:58:54,226 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:58:54,228 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:58:54,228 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:59:02,602 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:59:02,667 | INFO | Connexion MySQL réussie
+2026-04-18 23:59:02,819 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:59:02,820 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:59:02,821 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:59:47,074 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:59:47,142 | INFO | Connexion MySQL réussie
+2026-04-18 23:59:47,316 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:59:47,318 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:59:47,318 | INFO | Réentraînement ignoré — pas de drift
+2026-04-18 23:59:56,372 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-18 23:59:56,441 | INFO | Connexion MySQL réussie
+2026-04-18 23:59:56,592 | INFO | Données chargées : 1538 lignes
+2026-04-18 23:59:56,593 | INFO | Pas de drift : points=0.0%
+2026-04-18 23:59:56,593 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:00:04,063 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:00:04,124 | INFO | Connexion MySQL réussie
+2026-04-19 00:00:04,254 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:00:04,255 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:00:04,255 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:00:47,046 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:00:47,113 | INFO | Connexion MySQL réussie
+2026-04-19 00:00:47,253 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:00:47,254 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:00:47,254 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:00:55,182 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:00:55,271 | INFO | Connexion MySQL réussie
+2026-04-19 00:00:55,624 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:00:55,626 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:00:55,626 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:01:03,521 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:01:03,580 | INFO | Connexion MySQL réussie
+2026-04-19 00:01:03,702 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:01:03,703 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:01:03,703 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:01:46,567 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:01:46,667 | INFO | Connexion MySQL réussie
+2026-04-19 00:01:46,904 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:01:46,906 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:01:46,906 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:01:54,656 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:01:54,736 | INFO | Connexion MySQL réussie
+2026-04-19 00:01:55,039 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:01:55,041 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:01:55,041 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 00:02:03,565 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 00:02:03,801 | INFO | Connexion MySQL réussie
+2026-04-19 00:02:04,181 | INFO | Données chargées : 1538 lignes
+2026-04-19 00:02:04,183 | INFO | Pas de drift : points=0.0%
+2026-04-19 00:02:04,183 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:02:44,777 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:02:44,906 | INFO | Connexion MySQL réussie
+2026-04-19 03:02:45,157 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:02:45,159 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:02:45,159 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:02:47,875 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:02:47,976 | INFO | Connexion MySQL réussie
+2026-04-19 03:02:48,178 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:02:48,180 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:02:48,180 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:02:54,179 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:02:54,279 | INFO | Connexion MySQL réussie
+2026-04-19 03:02:54,474 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:02:54,476 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:02:54,476 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:02:57,059 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:02:57,188 | INFO | Connexion MySQL réussie
+2026-04-19 03:02:57,420 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:02:57,421 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:02:57,421 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:03:02,492 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:03:02,594 | INFO | Connexion MySQL réussie
+2026-04-19 03:03:02,776 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:03:02,777 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:03:02,778 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:03:05,978 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:03:06,075 | INFO | Connexion MySQL réussie
+2026-04-19 03:03:06,309 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:03:06,311 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:03:06,311 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:03:46,035 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:03:46,093 | INFO | Connexion MySQL réussie
+2026-04-19 03:03:46,229 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:03:46,230 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:03:46,230 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:03:53,324 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:03:53,381 | INFO | Connexion MySQL réussie
+2026-04-19 03:03:53,521 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:03:53,523 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:03:53,523 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:04:00,836 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:04:00,898 | INFO | Connexion MySQL réussie
+2026-04-19 03:04:01,026 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:04:01,027 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:04:01,027 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:04:46,051 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:04:46,111 | INFO | Connexion MySQL réussie
+2026-04-19 03:04:46,250 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:04:46,251 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:04:46,251 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 03:04:55,418 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 03:04:55,476 | INFO | Connexion MySQL réussie
+2026-04-19 03:04:55,601 | INFO | Données chargées : 1538 lignes
+2026-04-19 03:04:55,602 | INFO | Pas de drift : points=0.0%
+2026-04-19 03:04:55,602 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:10,829 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:10,943 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:11,170 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:11,171 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:11,172 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:42,395 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:42,456 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:42,605 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:42,606 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:42,606 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:46,165 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:46,222 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:46,354 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:46,355 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:46,355 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:49,945 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:50,003 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:50,131 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:50,132 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:50,132 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:53,514 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:53,580 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:53,722 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:53,723 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:53,723 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:05:57,257 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:05:57,317 | INFO | Connexion MySQL réussie
+2026-04-19 06:05:57,443 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:05:57,444 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:05:57,444 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:06:01,346 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:06:01,424 | INFO | Connexion MySQL réussie
+2026-04-19 06:06:01,628 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:06:01,629 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:06:01,630 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:06:45,993 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:06:46,050 | INFO | Connexion MySQL réussie
+2026-04-19 06:06:46,179 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:06:46,180 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:06:46,180 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:06:53,298 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:06:53,354 | INFO | Connexion MySQL réussie
+2026-04-19 06:06:53,482 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:06:53,483 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:06:53,483 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 06:07:00,790 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 06:07:00,866 | INFO | Connexion MySQL réussie
+2026-04-19 06:07:00,989 | INFO | Données chargées : 1538 lignes
+2026-04-19 06:07:00,990 | INFO | Pas de drift : points=0.0%
+2026-04-19 06:07:00,990 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:07:47,227 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:07:47,332 | INFO | Connexion MySQL réussie
+2026-04-19 09:07:48,469 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:07:48,582 | INFO | Connexion MySQL réussie
+2026-04-19 09:07:49,416 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:07:49,417 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:07:49,418 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:07:49,436 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:07:49,438 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:07:49,438 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:07:57,996 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:07:58,103 | INFO | Connexion MySQL réussie
+2026-04-19 09:07:58,200 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:07:58,293 | INFO | Connexion MySQL réussie
+2026-04-19 09:07:59,643 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:07:59,644 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:07:59,645 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:07:59,771 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:07:59,772 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:07:59,773 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:08:10,111 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:08:10,229 | INFO | Connexion MySQL réussie
+2026-04-19 09:08:10,482 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:08:10,483 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:08:10,483 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:08:10,751 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:08:10,853 | INFO | Connexion MySQL réussie
+2026-04-19 09:08:11,083 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:08:11,084 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:08:11,084 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:08:46,069 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:08:46,128 | INFO | Connexion MySQL réussie
+2026-04-19 09:08:46,268 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:08:46,269 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:08:46,269 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:08:53,418 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:08:53,475 | INFO | Connexion MySQL réussie
+2026-04-19 09:08:53,602 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:08:53,603 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:08:53,603 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:09:01,142 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:09:01,200 | INFO | Connexion MySQL réussie
+2026-04-19 09:09:01,334 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:09:01,335 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:09:01,335 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 09:09:48,120 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 09:09:48,278 | INFO | Connexion MySQL réussie
+2026-04-19 09:09:48,490 | INFO | Données chargées : 1538 lignes
+2026-04-19 09:09:48,491 | INFO | Pas de drift : points=0.0%
+2026-04-19 09:09:48,491 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:01,720 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:01,875 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:02,120 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:02,122 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:02,122 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:17,036 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:17,167 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:17,399 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:17,401 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:17,401 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:41,536 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:41,595 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:41,714 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:41,715 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:41,715 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:46,030 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:46,130 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:46,247 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:46,248 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:46,248 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:48,926 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:48,983 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:49,111 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:49,112 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:49,112 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:53,797 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:53,855 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:53,986 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:53,987 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:53,988 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:10:56,441 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:10:56,507 | INFO | Connexion MySQL réussie
+2026-04-19 12:10:56,641 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:10:56,642 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:10:56,642 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:11:01,251 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:11:01,309 | INFO | Connexion MySQL réussie
+2026-04-19 12:11:01,436 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:11:01,437 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:11:01,437 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:11:46,053 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:11:46,158 | INFO | Connexion MySQL réussie
+2026-04-19 12:11:46,319 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:11:46,319 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:11:46,320 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:11:53,521 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:11:53,576 | INFO | Connexion MySQL réussie
+2026-04-19 12:11:53,708 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:11:53,709 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:11:53,709 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:12:01,050 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:12:01,106 | INFO | Connexion MySQL réussie
+2026-04-19 12:12:01,248 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:12:01,249 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:12:01,249 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:12:46,251 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:12:46,307 | INFO | Connexion MySQL réussie
+2026-04-19 12:12:46,449 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:12:46,450 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:12:46,450 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:12:53,701 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:12:53,762 | INFO | Connexion MySQL réussie
+2026-04-19 12:12:53,900 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:12:53,901 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:12:53,901 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 12:13:01,499 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 12:13:01,578 | INFO | Connexion MySQL réussie
+2026-04-19 12:13:01,710 | INFO | Données chargées : 1538 lignes
+2026-04-19 12:13:01,711 | INFO | Pas de drift : points=0.0%
+2026-04-19 12:13:01,711 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:00,804 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:00,922 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:01,151 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:01,153 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:01,153 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:13,077 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:13,227 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:13,560 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:13,562 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:13,562 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:22,470 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:22,544 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:22,667 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:22,668 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:22,668 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:41,834 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:41,899 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:42,055 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:42,056 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:42,056 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:46,119 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:46,185 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:46,342 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:46,343 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:46,343 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:49,413 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:49,469 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:49,603 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:49,604 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:49,604 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:53,681 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:53,737 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:53,862 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:53,863 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:53,863 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:14:56,771 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:14:56,828 | INFO | Connexion MySQL réussie
+2026-04-19 15:14:56,956 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:14:56,957 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:14:56,957 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:15:01,155 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:15:01,212 | INFO | Connexion MySQL réussie
+2026-04-19 15:15:01,328 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:15:01,329 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:15:01,329 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:15:46,071 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:15:46,128 | INFO | Connexion MySQL réussie
+2026-04-19 15:15:46,260 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:15:46,261 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:15:46,261 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:15:53,655 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:15:53,713 | INFO | Connexion MySQL réussie
+2026-04-19 15:15:53,830 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:15:53,831 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:15:53,831 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 15:16:01,271 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 15:16:01,371 | INFO | Connexion MySQL réussie
+2026-04-19 15:16:01,553 | INFO | Données chargées : 1538 lignes
+2026-04-19 15:16:01,555 | INFO | Pas de drift : points=0.0%
+2026-04-19 15:16:01,555 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:11:54,115 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:11:54,251 | INFO | Connexion MySQL réussie
+2026-04-19 18:11:54,563 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:11:54,565 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:11:54,565 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:12:02,406 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:12:02,463 | INFO | Connexion MySQL réussie
+2026-04-19 18:12:02,590 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:12:02,591 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:12:02,591 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:12:11,639 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:12:11,718 | INFO | Connexion MySQL réussie
+2026-04-19 18:12:11,870 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:12:11,871 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:12:11,871 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:12:46,264 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:12:46,329 | INFO | Connexion MySQL réussie
+2026-04-19 18:12:46,458 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:12:46,459 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:12:46,459 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:12:53,739 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:12:53,808 | INFO | Connexion MySQL réussie
+2026-04-19 18:12:53,955 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:12:53,956 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:12:53,956 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:13:01,393 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:13:01,473 | INFO | Connexion MySQL réussie
+2026-04-19 18:13:01,609 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:13:01,610 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:13:01,610 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:13:46,181 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:13:46,243 | INFO | Connexion MySQL réussie
+2026-04-19 18:13:46,376 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:13:46,376 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:13:46,377 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:13:53,546 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:13:53,603 | INFO | Connexion MySQL réussie
+2026-04-19 18:13:53,723 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:13:53,724 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:13:53,724 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:14:01,314 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:14:01,374 | INFO | Connexion MySQL réussie
+2026-04-19 18:14:01,508 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:14:01,510 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:14:01,510 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:14:46,305 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:14:46,393 | INFO | Connexion MySQL réussie
+2026-04-19 18:14:46,550 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:14:46,551 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:14:46,551 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:14:53,844 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:14:53,900 | INFO | Connexion MySQL réussie
+2026-04-19 18:14:54,030 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:14:54,031 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:14:54,031 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:15:01,422 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:15:01,501 | INFO | Connexion MySQL réussie
+2026-04-19 18:15:01,652 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:15:01,653 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:15:01,653 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:15:46,095 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:15:46,153 | INFO | Connexion MySQL réussie
+2026-04-19 18:15:46,287 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:15:46,288 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:15:46,288 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:15:53,523 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:15:53,583 | INFO | Connexion MySQL réussie
+2026-04-19 18:15:53,717 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:15:53,718 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:15:53,718 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:16:01,026 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:16:01,084 | INFO | Connexion MySQL réussie
+2026-04-19 18:16:01,223 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:16:01,225 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:16:01,225 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:16:46,161 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:16:46,218 | INFO | Connexion MySQL réussie
+2026-04-19 18:16:46,356 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:16:46,357 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:16:46,357 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:16:53,517 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:16:53,595 | INFO | Connexion MySQL réussie
+2026-04-19 18:16:53,755 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:16:53,756 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:16:53,756 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:17:01,103 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:17:01,160 | INFO | Connexion MySQL réussie
+2026-04-19 18:17:01,317 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:17:01,318 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:17:01,318 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:17:46,202 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:17:46,261 | INFO | Connexion MySQL réussie
+2026-04-19 18:17:46,394 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:17:46,395 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:17:46,395 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:17:53,609 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:17:53,667 | INFO | Connexion MySQL réussie
+2026-04-19 18:17:53,800 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:17:53,801 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:17:53,801 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:18:01,433 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:18:01,505 | INFO | Connexion MySQL réussie
+2026-04-19 18:18:01,635 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:18:01,636 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:18:01,636 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:18:46,344 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:18:46,423 | INFO | Connexion MySQL réussie
+2026-04-19 18:18:46,589 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:18:46,590 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:18:46,590 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:18:53,844 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:18:53,902 | INFO | Connexion MySQL réussie
+2026-04-19 18:18:54,029 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:18:54,030 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:18:54,031 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:19:01,291 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:19:01,348 | INFO | Connexion MySQL réussie
+2026-04-19 18:19:01,497 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:19:01,498 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:19:01,498 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:19:46,114 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:19:46,173 | INFO | Connexion MySQL réussie
+2026-04-19 18:19:46,318 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:19:46,319 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:19:46,319 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:19:53,653 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:19:53,711 | INFO | Connexion MySQL réussie
+2026-04-19 18:19:53,830 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:19:53,831 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:19:53,831 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:20:01,170 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:20:01,229 | INFO | Connexion MySQL réussie
+2026-04-19 18:20:01,359 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:20:01,360 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:20:01,361 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:20:46,088 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:20:46,144 | INFO | Connexion MySQL réussie
+2026-04-19 18:20:46,282 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:20:46,283 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:20:46,283 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:20:53,432 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:20:53,490 | INFO | Connexion MySQL réussie
+2026-04-19 18:20:53,642 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:20:53,644 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:20:53,644 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:21:00,961 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:21:01,018 | INFO | Connexion MySQL réussie
+2026-04-19 18:21:01,149 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:21:01,150 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:21:01,150 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:21:46,175 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:21:46,238 | INFO | Connexion MySQL réussie
+2026-04-19 18:21:46,358 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:21:46,359 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:21:46,359 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:21:53,515 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:21:53,571 | INFO | Connexion MySQL réussie
+2026-04-19 18:21:53,695 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:21:53,696 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:21:53,696 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:22:02,596 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:22:02,700 | INFO | Connexion MySQL réussie
+2026-04-19 18:22:02,918 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:22:02,920 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:22:02,920 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:22:47,559 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:22:47,657 | INFO | Connexion MySQL réussie
+2026-04-19 18:22:47,838 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:22:47,839 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:22:47,839 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:22:55,683 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:22:55,760 | INFO | Connexion MySQL réussie
+2026-04-19 18:22:55,910 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:22:55,912 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:22:55,912 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:23:04,221 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:23:04,338 | INFO | Connexion MySQL réussie
+2026-04-19 18:23:04,536 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:23:04,537 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:23:04,537 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:23:46,815 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:23:46,898 | INFO | Connexion MySQL réussie
+2026-04-19 18:23:47,063 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:23:47,064 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:23:47,064 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:23:55,005 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:23:55,091 | INFO | Connexion MySQL réussie
+2026-04-19 18:23:55,245 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:23:55,246 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:23:55,247 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:24:03,001 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:24:03,089 | INFO | Connexion MySQL réussie
+2026-04-19 18:24:03,249 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:24:03,250 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:24:03,250 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:24:46,710 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:24:46,792 | INFO | Connexion MySQL réussie
+2026-04-19 18:24:46,962 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:24:46,964 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:24:46,964 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:24:55,308 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:24:55,398 | INFO | Connexion MySQL réussie
+2026-04-19 18:24:55,587 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:24:55,588 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:24:55,588 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:25:03,405 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:25:03,484 | INFO | Connexion MySQL réussie
+2026-04-19 18:25:03,636 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:25:03,638 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:25:03,638 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:25:46,817 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:25:46,893 | INFO | Connexion MySQL réussie
+2026-04-19 18:25:47,038 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:25:47,039 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:25:47,039 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:25:55,041 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:25:55,124 | INFO | Connexion MySQL réussie
+2026-04-19 18:25:55,276 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:25:55,277 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:25:55,277 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:26:03,161 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:26:03,245 | INFO | Connexion MySQL réussie
+2026-04-19 18:26:03,419 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:26:03,420 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:26:03,421 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:26:46,882 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:26:46,967 | INFO | Connexion MySQL réussie
+2026-04-19 18:26:47,149 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:26:47,150 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:26:47,151 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:26:54,751 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:26:54,825 | INFO | Connexion MySQL réussie
+2026-04-19 18:26:54,981 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:26:54,982 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:26:54,982 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:27:02,911 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:27:02,993 | INFO | Connexion MySQL réussie
+2026-04-19 18:27:03,144 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:27:03,145 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:27:03,145 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:27:46,459 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:27:46,539 | INFO | Connexion MySQL réussie
+2026-04-19 18:27:46,694 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:27:46,694 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:27:46,695 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:27:54,292 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:27:54,411 | INFO | Connexion MySQL réussie
+2026-04-19 18:27:54,562 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:27:54,563 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:27:54,563 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:28:02,131 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:28:02,205 | INFO | Connexion MySQL réussie
+2026-04-19 18:28:02,345 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:28:02,346 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:28:02,347 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:28:46,123 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:28:46,187 | INFO | Connexion MySQL réussie
+2026-04-19 18:28:46,364 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:28:46,366 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:28:46,366 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:28:53,805 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:28:53,877 | INFO | Connexion MySQL réussie
+2026-04-19 18:28:54,030 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:28:54,031 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:28:54,031 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:29:01,407 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:29:01,466 | INFO | Connexion MySQL réussie
+2026-04-19 18:29:01,601 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:29:01,602 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:29:01,602 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:29:46,093 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:29:46,150 | INFO | Connexion MySQL réussie
+2026-04-19 18:29:46,279 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:29:46,280 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:29:46,280 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:29:53,479 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:29:53,538 | INFO | Connexion MySQL réussie
+2026-04-19 18:29:53,657 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:29:53,658 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:29:53,658 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:30:00,956 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:30:01,017 | INFO | Connexion MySQL réussie
+2026-04-19 18:30:01,149 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:30:01,150 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:30:01,150 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:30:46,554 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:30:46,639 | INFO | Connexion MySQL réussie
+2026-04-19 18:30:46,807 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:30:46,808 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:30:46,808 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:30:53,992 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:30:54,047 | INFO | Connexion MySQL réussie
+2026-04-19 18:30:54,187 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:30:54,188 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:30:54,189 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:31:01,715 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:31:01,777 | INFO | Connexion MySQL réussie
+2026-04-19 18:31:01,923 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:31:01,924 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:31:01,924 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:31:46,108 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:31:46,166 | INFO | Connexion MySQL réussie
+2026-04-19 18:31:46,289 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:31:46,290 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:31:46,290 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:31:53,504 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:31:53,561 | INFO | Connexion MySQL réussie
+2026-04-19 18:31:53,692 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:31:53,692 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:31:53,693 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:32:00,918 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:32:00,981 | INFO | Connexion MySQL réussie
+2026-04-19 18:32:01,145 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:32:01,146 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:32:01,146 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:32:46,096 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:32:46,154 | INFO | Connexion MySQL réussie
+2026-04-19 18:32:46,308 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:32:46,309 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:32:46,309 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:32:53,683 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:32:53,756 | INFO | Connexion MySQL réussie
+2026-04-19 18:32:53,907 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:32:53,908 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:32:53,908 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:33:01,151 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:33:01,213 | INFO | Connexion MySQL réussie
+2026-04-19 18:33:01,349 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:33:01,350 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:33:01,350 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:33:46,118 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:33:46,176 | INFO | Connexion MySQL réussie
+2026-04-19 18:33:46,311 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:33:46,312 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:33:46,312 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:33:53,542 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:33:53,600 | INFO | Connexion MySQL réussie
+2026-04-19 18:33:53,719 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:33:53,720 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:33:53,720 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:34:01,037 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:34:01,095 | INFO | Connexion MySQL réussie
+2026-04-19 18:34:01,226 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:34:01,227 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:34:01,227 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:34:46,406 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:34:46,473 | INFO | Connexion MySQL réussie
+2026-04-19 18:34:46,662 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:34:46,663 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:34:46,663 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:34:53,915 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:34:53,970 | INFO | Connexion MySQL réussie
+2026-04-19 18:34:54,109 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:34:54,110 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:34:54,110 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:35:01,518 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:35:01,590 | INFO | Connexion MySQL réussie
+2026-04-19 18:35:01,744 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:35:01,745 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:35:01,745 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:35:46,096 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:35:46,154 | INFO | Connexion MySQL réussie
+2026-04-19 18:35:46,288 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:35:46,289 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:35:46,289 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:35:53,476 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:35:53,533 | INFO | Connexion MySQL réussie
+2026-04-19 18:35:53,672 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:35:53,674 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:35:53,674 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:36:00,974 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:36:01,032 | INFO | Connexion MySQL réussie
+2026-04-19 18:36:01,159 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:36:01,160 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:36:01,160 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:36:46,109 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:36:46,165 | INFO | Connexion MySQL réussie
+2026-04-19 18:36:46,288 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:36:46,289 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:36:46,289 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:36:53,644 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:36:53,715 | INFO | Connexion MySQL réussie
+2026-04-19 18:36:53,878 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:36:53,880 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:36:53,880 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:37:01,079 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:37:01,136 | INFO | Connexion MySQL réussie
+2026-04-19 18:37:01,270 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:37:01,271 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:37:01,271 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:37:46,082 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:37:46,140 | INFO | Connexion MySQL réussie
+2026-04-19 18:37:46,266 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:37:46,267 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:37:46,267 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:37:53,488 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:37:53,546 | INFO | Connexion MySQL réussie
+2026-04-19 18:37:53,674 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:37:53,675 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:37:53,675 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:38:01,037 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:38:01,094 | INFO | Connexion MySQL réussie
+2026-04-19 18:38:01,226 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:38:01,227 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:38:01,227 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:38:46,491 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:38:46,575 | INFO | Connexion MySQL réussie
+2026-04-19 18:38:46,750 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:38:46,751 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:38:46,751 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:38:53,940 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:38:53,996 | INFO | Connexion MySQL réussie
+2026-04-19 18:38:54,143 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:38:54,144 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:38:54,144 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:39:01,524 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:39:01,612 | INFO | Connexion MySQL réussie
+2026-04-19 18:39:01,753 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:39:01,754 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:39:01,754 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:39:46,091 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:39:46,147 | INFO | Connexion MySQL réussie
+2026-04-19 18:39:46,269 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:39:46,270 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:39:46,270 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:39:53,483 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:39:53,541 | INFO | Connexion MySQL réussie
+2026-04-19 18:39:53,664 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:39:53,665 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:39:53,665 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:40:00,945 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:40:01,004 | INFO | Connexion MySQL réussie
+2026-04-19 18:40:01,133 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:40:01,134 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:40:01,134 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:40:46,106 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:40:46,163 | INFO | Connexion MySQL réussie
+2026-04-19 18:40:46,294 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:40:46,295 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:40:46,295 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:40:53,673 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:40:53,744 | INFO | Connexion MySQL réussie
+2026-04-19 18:40:53,896 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:40:53,897 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:40:53,897 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:41:01,202 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:41:01,260 | INFO | Connexion MySQL réussie
+2026-04-19 18:41:01,390 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:41:01,391 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:41:01,391 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:41:46,158 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:41:46,216 | INFO | Connexion MySQL réussie
+2026-04-19 18:41:46,354 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:41:46,355 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:41:46,355 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:41:53,552 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:41:53,616 | INFO | Connexion MySQL réussie
+2026-04-19 18:41:53,769 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:41:53,770 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:41:53,770 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:42:01,222 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:42:01,279 | INFO | Connexion MySQL réussie
+2026-04-19 18:42:01,410 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:42:01,411 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:42:01,411 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:42:46,522 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:42:46,591 | INFO | Connexion MySQL réussie
+2026-04-19 18:42:46,733 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:42:46,734 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:42:46,734 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:42:53,987 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:42:54,054 | INFO | Connexion MySQL réussie
+2026-04-19 18:42:54,189 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:42:54,190 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:42:54,190 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:43:01,577 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:43:01,665 | INFO | Connexion MySQL réussie
+2026-04-19 18:43:01,840 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:43:01,841 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:43:01,841 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:43:46,120 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:43:46,177 | INFO | Connexion MySQL réussie
+2026-04-19 18:43:46,309 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:43:46,310 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:43:46,310 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:43:53,471 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:43:53,530 | INFO | Connexion MySQL réussie
+2026-04-19 18:43:53,649 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:43:53,650 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:43:53,651 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:44:00,932 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:44:00,998 | INFO | Connexion MySQL réussie
+2026-04-19 18:44:01,128 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:44:01,129 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:44:01,129 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:44:46,127 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:44:46,200 | INFO | Connexion MySQL réussie
+2026-04-19 18:44:46,341 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:44:46,342 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:44:46,342 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:44:53,731 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:44:53,795 | INFO | Connexion MySQL réussie
+2026-04-19 18:44:53,967 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:44:53,968 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:44:53,968 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:45:01,351 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:45:01,408 | INFO | Connexion MySQL réussie
+2026-04-19 18:45:01,529 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:45:01,530 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:45:01,530 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:45:46,116 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:45:46,175 | INFO | Connexion MySQL réussie
+2026-04-19 18:45:46,307 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:45:46,308 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:45:46,308 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:45:53,494 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:45:53,559 | INFO | Connexion MySQL réussie
+2026-04-19 18:45:53,700 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:45:53,701 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:45:53,701 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:46:01,073 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:46:01,134 | INFO | Connexion MySQL réussie
+2026-04-19 18:46:01,266 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:46:01,267 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:46:01,267 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:46:46,439 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:46:46,505 | INFO | Connexion MySQL réussie
+2026-04-19 18:46:46,655 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:46:46,656 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:46:46,657 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:46:53,882 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:46:53,947 | INFO | Connexion MySQL réussie
+2026-04-19 18:46:54,071 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:46:54,072 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:46:54,072 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:47:01,525 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:47:01,598 | INFO | Connexion MySQL réussie
+2026-04-19 18:47:01,786 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:47:01,788 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:47:01,788 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:47:46,069 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:47:46,127 | INFO | Connexion MySQL réussie
+2026-04-19 18:47:46,268 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:47:46,269 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:47:46,269 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:47:53,481 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:47:53,539 | INFO | Connexion MySQL réussie
+2026-04-19 18:47:53,669 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:47:53,670 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:47:53,670 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:48:00,973 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:48:01,030 | INFO | Connexion MySQL réussie
+2026-04-19 18:48:01,149 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:48:01,150 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:48:01,150 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:48:46,119 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:48:46,175 | INFO | Connexion MySQL réussie
+2026-04-19 18:48:46,311 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:48:46,312 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:48:46,313 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:48:53,593 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:48:53,660 | INFO | Connexion MySQL réussie
+2026-04-19 18:48:53,818 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:48:53,819 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:48:53,819 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:49:01,080 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:49:01,139 | INFO | Connexion MySQL réussie
+2026-04-19 18:49:01,276 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:49:01,277 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:49:01,278 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:49:46,124 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:49:46,181 | INFO | Connexion MySQL réussie
+2026-04-19 18:49:46,335 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:49:46,336 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:49:46,336 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:49:53,555 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:49:53,613 | INFO | Connexion MySQL réussie
+2026-04-19 18:49:53,756 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:49:53,757 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:49:53,757 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:50:01,080 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:50:01,137 | INFO | Connexion MySQL réussie
+2026-04-19 18:50:01,268 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:50:01,268 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:50:01,269 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:50:46,371 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:50:46,451 | INFO | Connexion MySQL réussie
+2026-04-19 18:50:46,622 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:50:46,624 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:50:46,624 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:50:53,842 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:50:53,898 | INFO | Connexion MySQL réussie
+2026-04-19 18:50:54,032 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:50:54,033 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:50:54,033 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:51:01,407 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:51:01,471 | INFO | Connexion MySQL réussie
+2026-04-19 18:51:01,637 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:51:01,638 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:51:01,638 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:51:46,102 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:51:46,159 | INFO | Connexion MySQL réussie
+2026-04-19 18:51:46,296 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:51:46,297 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:51:46,297 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:51:53,507 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:51:53,566 | INFO | Connexion MySQL réussie
+2026-04-19 18:51:53,697 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:51:53,698 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:51:53,698 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:52:00,969 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:52:01,038 | INFO | Connexion MySQL réussie
+2026-04-19 18:52:01,165 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:52:01,166 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:52:01,166 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:52:46,121 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:52:46,176 | INFO | Connexion MySQL réussie
+2026-04-19 18:52:46,305 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:52:46,306 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:52:46,307 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:52:53,649 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:52:53,715 | INFO | Connexion MySQL réussie
+2026-04-19 18:52:53,872 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:52:53,873 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:52:53,873 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:53:01,239 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:53:01,299 | INFO | Connexion MySQL réussie
+2026-04-19 18:53:01,420 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:53:01,421 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:53:01,421 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:53:46,149 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:53:46,207 | INFO | Connexion MySQL réussie
+2026-04-19 18:53:46,337 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:53:46,338 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:53:46,338 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:53:53,538 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:53:53,596 | INFO | Connexion MySQL réussie
+2026-04-19 18:53:53,723 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:53:53,724 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:53:53,724 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:54:01,144 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:54:01,203 | INFO | Connexion MySQL réussie
+2026-04-19 18:54:01,337 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:54:01,338 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:54:01,338 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:54:46,382 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:54:46,449 | INFO | Connexion MySQL réussie
+2026-04-19 18:54:46,604 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:54:46,605 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:54:46,605 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:54:53,805 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:54:53,864 | INFO | Connexion MySQL réussie
+2026-04-19 18:54:53,999 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:54:54,000 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:54:54,000 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:55:01,323 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:55:01,398 | INFO | Connexion MySQL réussie
+2026-04-19 18:55:01,530 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:55:01,531 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:55:01,531 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:55:46,168 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:55:46,235 | INFO | Connexion MySQL réussie
+2026-04-19 18:55:46,354 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:55:46,355 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:55:46,355 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:55:53,577 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:55:53,634 | INFO | Connexion MySQL réussie
+2026-04-19 18:55:53,765 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:55:53,766 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:55:53,766 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:56:01,044 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:56:01,101 | INFO | Connexion MySQL réussie
+2026-04-19 18:56:01,259 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:56:01,260 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:56:01,260 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:56:46,801 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:56:46,862 | INFO | Connexion MySQL réussie
+2026-04-19 18:56:46,992 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:56:46,993 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:56:46,993 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:56:55,280 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:56:55,367 | INFO | Connexion MySQL réussie
+2026-04-19 18:56:55,615 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:56:55,617 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:56:55,617 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:57:03,702 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:57:03,771 | INFO | Connexion MySQL réussie
+2026-04-19 18:57:03,897 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:57:03,898 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:57:03,898 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:57:46,362 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:57:46,435 | INFO | Connexion MySQL réussie
+2026-04-19 18:57:46,576 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:57:46,577 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:57:46,577 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:57:54,140 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:57:54,212 | INFO | Connexion MySQL réussie
+2026-04-19 18:57:54,357 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:57:54,358 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:57:54,358 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:58:02,802 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:58:02,890 | INFO | Connexion MySQL réussie
+2026-04-19 18:58:03,078 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:58:03,079 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:58:03,079 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:58:47,514 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:58:47,588 | INFO | Connexion MySQL réussie
+2026-04-19 18:58:47,750 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:58:47,751 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:58:47,751 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:58:55,472 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:58:55,542 | INFO | Connexion MySQL réussie
+2026-04-19 18:58:55,672 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:58:55,673 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:58:55,673 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:59:04,113 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:59:04,208 | INFO | Connexion MySQL réussie
+2026-04-19 18:59:04,363 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:59:04,364 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:59:04,364 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:59:46,205 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:59:46,263 | INFO | Connexion MySQL réussie
+2026-04-19 18:59:46,417 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:59:46,418 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:59:46,418 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 18:59:53,935 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 18:59:54,024 | INFO | Connexion MySQL réussie
+2026-04-19 18:59:54,829 | INFO | Données chargées : 1538 lignes
+2026-04-19 18:59:54,830 | INFO | Pas de drift : points=0.0%
+2026-04-19 18:59:54,831 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 19:00:02,787 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 19:00:02,857 | INFO | Connexion MySQL réussie
+2026-04-19 19:00:02,991 | INFO | Données chargées : 1538 lignes
+2026-04-19 19:00:02,992 | INFO | Pas de drift : points=0.0%
+2026-04-19 19:00:02,992 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:01:58,699 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:01:58,839 | INFO | Connexion MySQL réussie
+2026-04-19 20:01:59,108 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:01:59,109 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:01:59,109 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:02:08,310 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:02:08,399 | INFO | Connexion MySQL réussie
+2026-04-19 20:02:08,563 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:02:08,565 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:02:08,566 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:02:17,124 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:02:17,214 | INFO | Connexion MySQL réussie
+2026-04-19 20:02:17,410 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:02:17,412 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:02:17,412 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:02:57,381 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:02:57,464 | INFO | Connexion MySQL réussie
+2026-04-19 20:02:57,623 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:02:57,624 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:02:57,625 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:06,881 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:06,941 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:07,086 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:07,087 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:07,087 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:15,314 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:15,389 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:15,391 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:15,486 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:15,561 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:15,563 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:15,563 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:15,664 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:15,666 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:15,666 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:23,706 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:23,813 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:23,984 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:23,985 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:23,985 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:32,235 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:32,309 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:32,476 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:32,477 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:32,477 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:03:57,551 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:03:57,608 | INFO | Connexion MySQL réussie
+2026-04-19 20:03:57,734 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:03:57,735 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:03:57,735 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:04:05,414 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:04:05,493 | INFO | Connexion MySQL réussie
+2026-04-19 20:04:05,674 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:04:05,675 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:04:05,675 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:04:13,282 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:04:13,353 | INFO | Connexion MySQL réussie
+2026-04-19 20:04:13,538 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:04:13,539 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:04:13,540 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:04:57,619 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:04:57,679 | INFO | Connexion MySQL réussie
+2026-04-19 20:04:57,811 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:04:57,812 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:04:57,812 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:05:05,313 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:05:05,378 | INFO | Connexion MySQL réussie
+2026-04-19 20:05:05,519 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:05:05,521 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:05:05,521 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:05:13,803 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:05:13,880 | INFO | Connexion MySQL réussie
+2026-04-19 20:05:14,017 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:05:14,018 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:05:14,018 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:05:57,645 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:05:57,745 | INFO | Connexion MySQL réussie
+2026-04-19 20:05:58,254 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:05:58,256 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:05:58,256 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:06:06,400 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:06:06,488 | INFO | Connexion MySQL réussie
+2026-04-19 20:06:06,695 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:06:06,696 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:06:06,696 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:06:15,124 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:06:15,257 | INFO | Connexion MySQL réussie
+2026-04-19 20:06:15,543 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:06:15,544 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:06:15,544 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:06:17,460 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:06:17,543 | INFO | Connexion MySQL réussie
+2026-04-19 20:06:17,720 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:06:17,721 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:06:17,721 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:06:58,242 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:06:58,304 | INFO | Connexion MySQL réussie
+2026-04-19 20:06:58,433 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:06:58,434 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:06:58,434 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:07:06,887 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:07:06,957 | INFO | Connexion MySQL réussie
+2026-04-19 20:07:07,736 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:07:07,738 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:07:07,738 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:07:15,376 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:07:15,446 | INFO | Connexion MySQL réussie
+2026-04-19 20:07:15,578 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:07:15,579 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:07:15,579 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:07:58,123 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:07:58,207 | INFO | Connexion MySQL réussie
+2026-04-19 20:07:58,391 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:07:58,392 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:07:58,392 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:08:06,935 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:08:07,036 | INFO | Connexion MySQL réussie
+2026-04-19 20:08:07,204 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:08:07,206 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:08:07,206 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:08:15,937 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:08:16,001 | INFO | Connexion MySQL réussie
+2026-04-19 20:08:16,152 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:08:16,153 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:08:16,154 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:08:57,670 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:08:57,754 | INFO | Connexion MySQL réussie
+2026-04-19 20:08:57,894 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:08:57,895 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:08:57,896 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:09:05,644 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:09:05,723 | INFO | Connexion MySQL réussie
+2026-04-19 20:09:05,869 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:09:05,870 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:09:05,870 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:09:14,711 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:09:14,812 | INFO | Connexion MySQL réussie
+2026-04-19 20:09:14,981 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:09:14,982 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:09:14,982 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:09:57,951 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:09:58,016 | INFO | Connexion MySQL réussie
+2026-04-19 20:09:58,189 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:09:58,191 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:09:58,191 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:10:06,839 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:10:06,915 | INFO | Connexion MySQL réussie
+2026-04-19 20:10:07,072 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:10:07,074 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:10:07,074 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:10:16,339 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:10:16,428 | INFO | Connexion MySQL réussie
+2026-04-19 20:10:16,674 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:10:16,676 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:10:16,676 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:14:54,893 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:14:54,959 | INFO | Connexion MySQL réussie
+2026-04-19 20:14:55,096 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:14:55,097 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:14:55,097 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:15:03,533 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:15:03,626 | INFO | Connexion MySQL réussie
+2026-04-19 20:15:03,807 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:15:03,808 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:15:03,808 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:15:12,035 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:15:12,125 | INFO | Connexion MySQL réussie
+2026-04-19 20:15:12,306 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:15:12,308 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:15:12,308 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:15:59,691 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:15:59,784 | INFO | Connexion MySQL réussie
+2026-04-19 20:15:59,986 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:15:59,988 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:15:59,988 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:16:08,763 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:16:08,841 | INFO | Connexion MySQL réussie
+2026-04-19 20:16:09,003 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:16:09,005 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:16:09,005 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:16:16,663 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:16:16,735 | INFO | Connexion MySQL réussie
+2026-04-19 20:16:16,893 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:16:16,894 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:16:16,895 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:20:31,435 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:20:31,514 | INFO | Connexion MySQL réussie
+2026-04-19 20:20:31,738 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:20:31,739 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:20:31,739 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:20:40,262 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:20:40,342 | INFO | Connexion MySQL réussie
+2026-04-19 20:20:40,519 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:20:40,521 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:20:40,521 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:20:48,285 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:20:48,343 | INFO | Connexion MySQL réussie
+2026-04-19 20:20:48,482 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:20:48,483 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:20:48,484 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:24:46,682 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:24:46,765 | INFO | Connexion MySQL réussie
+2026-04-19 20:24:46,939 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:24:46,940 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:24:46,940 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:24:48,611 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:24:48,692 | INFO | Connexion MySQL réussie
+2026-04-19 20:24:48,843 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:24:48,846 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:24:48,846 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:24:55,571 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:24:55,690 | INFO | Connexion MySQL réussie
+2026-04-19 20:24:56,017 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:24:56,019 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:24:56,020 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:24:58,341 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:24:58,445 | INFO | Connexion MySQL réussie
+2026-04-19 20:24:58,679 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:24:58,680 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:24:58,680 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:25:03,904 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:25:03,977 | INFO | Connexion MySQL réussie
+2026-04-19 20:25:04,147 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:25:04,148 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:25:04,148 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:25:06,360 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:25:06,544 | INFO | Connexion MySQL réussie
+2026-04-19 20:25:06,696 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:25:06,698 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:25:06,698 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:25:46,190 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:25:46,251 | INFO | Connexion MySQL réussie
+2026-04-19 20:25:46,375 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:25:46,376 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:25:46,376 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:25:53,713 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:25:53,774 | INFO | Connexion MySQL réussie
+2026-04-19 20:25:53,903 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:25:53,904 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:25:53,904 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:26:01,471 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:26:01,528 | INFO | Connexion MySQL réussie
+2026-04-19 20:26:01,658 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:26:01,659 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:26:01,659 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:26:49,144 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:26:49,243 | INFO | Connexion MySQL réussie
+2026-04-19 20:26:49,433 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:26:49,434 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:26:49,434 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:26:57,294 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:26:57,382 | INFO | Connexion MySQL réussie
+2026-04-19 20:26:57,646 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:26:57,648 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:26:57,648 | INFO | Réentraînement ignoré — pas de drift
+2026-04-19 20:27:05,828 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-19 20:27:05,895 | INFO | Connexion MySQL réussie
+2026-04-19 20:27:06,042 | INFO | Données chargées : 1538 lignes
+2026-04-19 20:27:06,043 | INFO | Pas de drift : points=0.0%
+2026-04-19 20:27:06,043 | INFO | Réentraînement ignoré — pas de drift
+2026-04-20 09:36:44,018 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-20 09:36:44,183 | INFO | Connexion MySQL réussie
+2026-04-20 09:36:44,506 | INFO | Données chargées : 1538 lignes
+2026-04-20 09:36:44,507 | INFO | Pas de drift : points=0.0%
+2026-04-20 09:36:44,507 | INFO | Réentraînement ignoré — pas de drift
+2026-04-20 09:36:52,692 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-20 09:36:52,780 | INFO | Connexion MySQL réussie
+2026-04-20 09:36:52,951 | INFO | Données chargées : 1538 lignes
+2026-04-20 09:36:52,952 | INFO | Pas de drift : points=0.0%
+2026-04-20 09:36:52,952 | INFO | Réentraînement ignoré — pas de drift
+2026-04-20 09:37:01,242 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-20 09:37:01,363 | INFO | Connexion MySQL réussie
+2026-04-20 09:37:01,653 | INFO | Données chargées : 1538 lignes
+2026-04-20 09:37:01,655 | INFO | Pas de drift : points=0.0%
+2026-04-20 09:37:01,655 | INFO | Réentraînement ignoré — pas de drift
+2026-04-23 15:40:47,121 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-23 15:40:47,269 | INFO | Connexion MySQL réussie
+2026-04-23 15:40:49,370 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-23 15:40:57,205 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-23 15:40:57,277 | INFO | Connexion MySQL réussie
+2026-04-23 15:40:59,346 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-23 15:41:07,211 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-23 15:41:07,285 | INFO | Connexion MySQL réussie
+2026-04-23 15:41:09,343 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-24 09:45:22,584 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 09:45:22,688 | INFO | Connexion MySQL réussie
+2026-04-24 09:45:24,754 | ERROR | Erreur chargement données : (mysql.connector.errors.DatabaseError) 2003 (HY000): Can't connect to MySQL server on '127.0.0.1:3306' (10061)
+(Background on this error at: https://sqlalche.me/e/20/4xp6)
+2026-04-24 09:45:46,465 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 09:45:46,564 | INFO | Connexion MySQL réussie
+2026-04-24 09:45:46,730 | INFO | Données chargées : 1538 lignes
+2026-04-24 09:45:46,732 | INFO | Pas de drift : points=0.0%
+2026-04-24 09:45:48,301 | INFO | Dataset : 681 exemples
+2026-04-24 09:48:18,707 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 09:48:18,795 | INFO | Connexion MySQL réussie
+2026-04-24 09:48:18,892 | INFO | Données chargées : 1538 lignes
+2026-04-24 09:48:18,893 | INFO | Pas de drift : points=0.0%
+2026-04-24 09:48:20,433 | INFO | Dataset : 681 exemples
+2026-04-24 09:48:32,699 | INFO | ROC-AUC : 0.8328
+2026-04-24 09:48:32,726 | INFO | Sauvegardé : 20260424_0948 | AUC=0.8328
+2026-04-24 09:49:12,594 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 09:49:12,688 | INFO | Connexion MySQL réussie
+2026-04-24 09:49:12,781 | INFO | Données chargées : 1538 lignes
+2026-04-24 09:49:12,782 | INFO | Pas de drift : points=0.0%
+2026-04-24 09:49:14,319 | INFO | Dataset : 681 exemples
+2026-04-24 09:49:26,364 | INFO | ROC-AUC : 0.7773
+2026-04-24 09:49:26,394 | INFO | Sauvegardé : 20260424_0949 | AUC=0.7773
+2026-04-24 09:57:34,981 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 09:57:35,077 | INFO | Connexion MySQL réussie
+2026-04-24 09:57:35,182 | INFO | Données chargées : 1538 lignes
+2026-04-24 09:57:35,183 | INFO | Pas de drift : points=0.0%
+2026-04-24 09:57:36,341 | INFO | Dataset : 681 exemples
+2026-04-24 09:57:44,958 | INFO | ROC-AUC : 0.7730
+2026-04-24 09:57:44,985 | INFO | Sauvegardé : 20260424_0957 | AUC=0.7730
+2026-04-24 17:33:38,529 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 17:33:38,615 | INFO | Connexion MySQL réussie
+2026-04-24 17:33:38,730 | INFO | Données chargées : 1538 lignes
+2026-04-24 17:33:38,731 | INFO | Pas de drift : points=0.0%
+2026-04-24 17:33:38,731 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 17:33:48,419 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 17:33:48,498 | INFO | Connexion MySQL réussie
+2026-04-24 17:33:48,594 | INFO | Données chargées : 1538 lignes
+2026-04-24 17:33:48,595 | INFO | Pas de drift : points=0.0%
+2026-04-24 17:33:48,596 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 17:33:58,296 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 17:33:58,380 | INFO | Connexion MySQL réussie
+2026-04-24 17:33:58,481 | INFO | Données chargées : 1538 lignes
+2026-04-24 17:33:58,482 | INFO | Pas de drift : points=0.0%
+2026-04-24 17:33:58,482 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:46:31,172 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:46:31,262 | INFO | Connexion MySQL réussie
+2026-04-24 22:46:31,387 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:46:31,388 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:46:31,388 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:46:41,275 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:46:41,390 | INFO | Connexion MySQL réussie
+2026-04-24 22:46:41,539 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:46:41,540 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:46:41,540 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:46:51,248 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:46:51,331 | INFO | Connexion MySQL réussie
+2026-04-24 22:46:51,428 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:46:51,429 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:46:51,429 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:54:52,050 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:54:52,149 | INFO | Connexion MySQL réussie
+2026-04-24 22:54:52,254 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:54:52,255 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:54:52,255 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:55:03,125 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:55:03,223 | INFO | Connexion MySQL réussie
+2026-04-24 22:55:03,302 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:55:03,303 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:55:03,303 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 22:55:14,867 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 22:55:14,956 | INFO | Connexion MySQL réussie
+2026-04-24 22:55:15,063 | INFO | Données chargées : 1538 lignes
+2026-04-24 22:55:15,064 | INFO | Pas de drift : points=0.0%
+2026-04-24 22:55:15,064 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:08:26,193 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:08:26,274 | INFO | Connexion MySQL réussie
+2026-04-24 23:08:26,372 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:08:26,373 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:08:26,373 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:08:36,139 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:08:36,223 | INFO | Connexion MySQL réussie
+2026-04-24 23:08:36,315 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:08:36,317 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:08:36,317 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:08:46,022 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:08:46,105 | INFO | Connexion MySQL réussie
+2026-04-24 23:08:46,204 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:08:46,205 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:08:46,205 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:15:29,299 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:15:29,398 | INFO | Connexion MySQL réussie
+2026-04-24 23:15:29,485 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:15:29,486 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:15:29,486 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:15:39,208 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:15:39,288 | INFO | Connexion MySQL réussie
+2026-04-24 23:15:39,397 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:15:39,398 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:15:39,398 | INFO | Réentraînement ignoré — pas de drift
+2026-04-24 23:15:49,075 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-24 23:15:49,156 | INFO | Connexion MySQL réussie
+2026-04-24 23:15:49,250 | INFO | Données chargées : 1538 lignes
+2026-04-24 23:15:49,253 | INFO | Pas de drift : points=0.0%
+2026-04-24 23:15:49,253 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 14:34:56,441 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 14:34:56,586 | INFO | Connexion MySQL réussie
+2026-04-25 14:34:56,694 | INFO | Données chargées : 1538 lignes
+2026-04-25 14:34:56,696 | INFO | Pas de drift : points=0.0%
+2026-04-25 14:34:56,696 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 14:35:08,015 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 14:35:08,104 | INFO | Connexion MySQL réussie
+2026-04-25 14:35:08,203 | INFO | Données chargées : 1538 lignes
+2026-04-25 14:35:08,204 | INFO | Pas de drift : points=0.0%
+2026-04-25 14:35:08,204 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 14:35:19,708 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 14:35:19,792 | INFO | Connexion MySQL réussie
+2026-04-25 14:35:19,893 | INFO | Données chargées : 1538 lignes
+2026-04-25 14:35:19,894 | INFO | Pas de drift : points=0.0%
+2026-04-25 14:35:19,894 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 14:44:35,028 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 14:44:35,102 | INFO | Connexion MySQL réussie
+2026-04-25 14:44:35,194 | INFO | Données chargées : 1538 lignes
+2026-04-25 14:44:35,195 | INFO | Pas de drift : points=0.0%
+2026-04-25 14:44:36,215 | INFO | Dataset : 681 exemples
+2026-04-25 14:44:46,138 | INFO | ROC-AUC : 0.7607
+2026-04-25 14:44:46,164 | INFO | Sauvegardé : 20260425_1444 | AUC=0.7607
+2026-04-25 19:21:56,032 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 19:21:56,186 | INFO | Connexion MySQL réussie
+2026-04-25 19:21:56,305 | INFO | Données chargées : 1538 lignes
+2026-04-25 19:21:56,307 | INFO | Pas de drift : points=0.0%
+2026-04-25 19:21:56,308 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 19:22:06,336 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 19:22:06,417 | INFO | Connexion MySQL réussie
+2026-04-25 19:22:06,513 | INFO | Données chargées : 1538 lignes
+2026-04-25 19:22:06,514 | INFO | Pas de drift : points=0.0%
+2026-04-25 19:22:06,514 | INFO | Réentraînement ignoré — pas de drift
+2026-04-25 19:22:16,402 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-25 19:22:16,488 | INFO | Connexion MySQL réussie
+2026-04-25 19:22:16,577 | INFO | Données chargées : 1538 lignes
+2026-04-25 19:22:16,578 | INFO | Pas de drift : points=0.0%
+2026-04-25 19:22:16,578 | INFO | Réentraînement ignoré — pas de drift
+2026-04-26 12:15:59,799 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-26 12:15:59,934 | INFO | Connexion MySQL réussie
+2026-04-26 12:16:00,125 | INFO | Données chargées : 1538 lignes
+2026-04-26 12:16:00,127 | INFO | Pas de drift : points=0.0%
+2026-04-26 12:16:00,127 | INFO | Réentraînement ignoré — pas de drift
+2026-04-26 12:16:10,923 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-26 12:16:11,006 | INFO | Connexion MySQL réussie
+2026-04-26 12:16:11,103 | INFO | Données chargées : 1538 lignes
+2026-04-26 12:16:11,104 | INFO | Pas de drift : points=0.0%
+2026-04-26 12:16:11,104 | INFO | Réentraînement ignoré — pas de drift
+2026-04-26 12:16:20,987 | INFO | === RETRAINING PIPELINE DÉMARRÉ ===
+2026-04-26 12:16:21,071 | INFO | Connexion MySQL réussie
+2026-04-26 12:16:21,172 | INFO | Données chargées : 1538 lignes
+2026-04-26 12:16:21,173 | INFO | Pas de drift : points=0.0%
+2026-04-26 12:16:21,173 | INFO | Réentraînement ignoré — pas de drift

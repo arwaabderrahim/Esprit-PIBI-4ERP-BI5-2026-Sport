@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-04-26T12:16:21.174040",
+  "retrain": false,
+  "reason": "No drift detected",
+  "drift_report": {
+    "points_drift_pct": 0.0,
+    "player_drift_pct": 0.0,
+    "current_mean": 157.33,
+    "reference_mean": 157.33,
+    "current_players": 4118,
+    "reference_players": 4118
+  }
+}
