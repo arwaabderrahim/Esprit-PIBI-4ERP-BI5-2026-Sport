@@ -1,0 +1,120 @@
+groups:
+
+  # ── Groupe 1 : Disponibilité de l'API ───────────────────────────
+  - name: api_availability
+    rules:
+
+      - alert: APIDown
+        expr: up{job="padel-analytics-api"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "🚨 API Padel Analytics is DOWN"
+          description: "The FastAPI service has been unreachable for more than 30 seconds."
+
+  # ── Groupe 2 : Performance / Latence ────────────────────────────
+  - name: api_performance
+    rules:
+
+      - alert: HighLatency
+        # Latence P95 > 2 secondes sur la dernière minute
+        expr: histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[1m])) > 2
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "⚠️ High API Latency"
+          description: "P95 latency is {{ $value | humanizeDuration }} — threshold: 2s"
+
+      - alert: CriticalLatency
+        # Latence P95 > 5 secondes → critique
+        expr: histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[1m])) > 5
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "🚨 Critical API Latency"
+          description: "P95 latency is {{ $value | humanizeDuration }} — system overloaded"
+
+  # ── Groupe 3 : Taux d'erreur ─────────────────────────────────────
+  - name: api_errors
+    rules:
+
+      - alert: HighErrorRate
+        # Plus de 5 erreurs sur les 5 dernières minutes
+        expr: increase(api_errors_total[5m]) > 5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "⚠️ High Error Rate"
+          description: "{{ $value }} errors in the last 5 minutes"
+
+      - alert: CriticalErrorRate
+        # Plus de 20 erreurs → critique
+        expr: increase(api_errors_total[5m]) > 20
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "🚨 Critical Error Rate"
+          description: "{{ $value }} errors in 5 minutes — immediate attention needed"
+
+  # ── Groupe 4 : Santé des modèles ML ─────────────────────────────
+  - name: model_health
+    rules:
+
+      - alert: ModelAccuracyDrop
+        # Accuracy tombe sous 0.70 (baseline = 0.83)
+        expr: model_accuracy < 0.70
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "🚨 Model Accuracy Degradation"
+          description: "Model accuracy is {{ $value }} — below threshold 0.70 (baseline: 0.83)"
+
+      - alert: ModelAccuracyWarning
+        # Accuracy entre 0.70 et 0.78 → avertissement
+        expr: model_accuracy < 0.78 and model_accuracy >= 0.70
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "⚠️ Model Accuracy Below Baseline"
+          description: "Model accuracy is {{ $value }} — baseline is 0.83"
+
+      - alert: LowConfidence
+        # Confidence (probabilité de prédiction) < 0.55
+        expr: model_confidence < 0.55
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "⚠️ Low Prediction Confidence"
+          description: "Model confidence is {{ $value }} — model may be uncertain"
+
+  # ── Groupe 5 : Trafic ───────────────────────────────────────────
+  - name: traffic
+    rules:
+
+      - alert: HighTraffic
+        # Plus de 100 requêtes par minute
+        expr: rate(api_requests_total[1m]) * 60 > 100
+        for: 1m
+        labels:
+          severity: info
+        annotations:
+          summary: "📈 High Traffic Detected"
+          description: "{{ $value | humanize }} requests/min — possible load spike"
+
+      - alert: NoTraffic
+        # Aucune requête depuis 10 minutes (service potentiellement mort)
+        expr: rate(api_requests_total[10m]) == 0
+        for: 10m
+        labels:
+          severity: warning
+        annotations:
+          summary: "📉 No Traffic"
+          description: "No requests received in the last 10 minutes"

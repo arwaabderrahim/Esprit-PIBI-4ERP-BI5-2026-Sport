@@ -1,0 +1,28 @@
+global:
+  scrape_interval: 10s        # Scrape toutes les 10 secondes
+  evaluation_interval: 10s    # Évalue les règles toutes les 10s
+
+# ── Alertmanager connection ──────────────────────────────────────
+alerting:
+  alertmanagers:
+    - static_configs:
+        - targets: ['alertmanager:9093']
+
+# ── Rules files ─────────────────────────────────────────────────
+rule_files:
+  - "alerts.yml"
+
+# ── Scrape configs ───────────────────────────────────────────────
+scrape_configs:
+
+  # API FastAPI — Métriques ML
+  - job_name: 'padel-analytics-api'
+    static_configs:
+      - targets: ['host.docker.internal:8000']
+    metrics_path: '/metrics'
+    scrape_interval: 10s
+
+  # Prometheus lui-même
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']

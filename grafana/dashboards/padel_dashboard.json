@@ -1,0 +1,267 @@
+{
+  "__inputs": [],
+  "__requires": [],
+  "annotations": { "list": [] },
+  "description": "Padel Analytics MLOps — Real-time monitoring of API, Models and Data",
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": null,
+  "links": [],
+  "panels": [
+
+    { "type": "row", "id": 100, "title": "🌐 API TRAFFIC", "gridPos": {"h":1,"w":24,"x":0,"y":0}, "collapsed": false },
+
+    {
+      "id": 1, "type": "stat",
+      "title": "Total Requests",
+      "description": "Cumulative number of API requests since startup",
+      "gridPos": {"h":4,"w":4,"x":0,"y":1},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "orientation":"auto", "textMode":"auto", "colorMode":"background", "graphMode":"area" },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":100},{"color":"orange","value":500}]},
+          "unit": "short"
+        }
+      },
+      "targets": [{ "expr": "api_requests_total", "legendFormat": "Total Requests", "refId": "A" }]
+    },
+
+    {
+      "id": 2, "type": "stat",
+      "title": "Request Rate (per min)",
+      "description": "Number of requests per minute — last 5 min average",
+      "gridPos": {"h":4,"w":4,"x":4,"y":1},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "colorMode":"background", "graphMode":"area" },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":50},{"color":"red","value":100}]},
+          "unit": "reqps"
+        }
+      },
+      "targets": [{ "expr": "rate(api_requests_total[1m]) * 60", "legendFormat": "Req/min", "refId": "A" }]
+    },
+
+    {
+      "id": 3, "type": "stat",
+      "title": "Total Errors",
+      "description": "Cumulative API errors",
+      "gridPos": {"h":4,"w":4,"x":8,"y":1},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "colorMode":"background" },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":5},{"color":"red","value":20}]},
+          "unit": "short"
+        }
+      },
+      "targets": [{ "expr": "api_errors_total", "legendFormat": "Errors", "refId": "A" }]
+    },
+
+    {
+      "id": 4, "type": "stat",
+      "title": "Error Rate (%)",
+      "description": "Percentage of requests that resulted in errors",
+      "gridPos": {"h":4,"w":4,"x":12,"y":1},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "colorMode":"background" },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":5},{"color":"red","value":15}]},
+          "unit": "percent",
+          "decimals": 2
+        }
+      },
+      "targets": [{ "expr": "rate(api_errors_total[5m]) / (rate(api_requests_total[5m]) + 0.001) * 100", "legendFormat": "Error %", "refId": "A" }]
+    },
+
+    {
+      "id": 5, "type": "stat",
+      "title": "API Status",
+      "description": "Is the Padel Analytics API up?",
+      "gridPos": {"h":4,"w":4,"x":16,"y":1},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "colorMode":"background", "textMode":"value_and_name" },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"red","value":null},{"color":"green","value":1}]},
+          "mappings": [{"type":"value","options":{"0":{"text":"DOWN 🔴"},"1":{"text":"UP 🟢"}}}]
+        }
+      },
+      "targets": [{ "expr": "up{job=\"padel-analytics-api\"}", "legendFormat": "Status", "refId": "A" }]
+    },
+
+    {
+      "id": 6, "type": "timeseries",
+      "title": "📈 Request Volume Over Time",
+      "description": "Number of requests per minute — detects traffic spikes",
+      "gridPos": {"h":8,"w":24,"x":0,"y":5},
+      "options": { "tooltip": {"mode":"single"}, "legend": {"displayMode":"list","placement":"bottom"} },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"palette-classic"},
+          "custom": {"lineWidth":2,"fillOpacity":10},
+          "unit": "reqps"
+        }
+      },
+      "targets": [
+        { "expr": "rate(api_requests_total[1m]) * 60", "legendFormat": "Requests / min", "refId": "A" },
+        { "expr": "rate(api_errors_total[1m]) * 60", "legendFormat": "Errors / min", "refId": "B" }
+      ]
+    },
+
+    { "type": "row", "id": 200, "title": "⚡ PERFORMANCE & LATENCY", "gridPos": {"h":1,"w":24,"x":0,"y":13}, "collapsed": false },
+
+    {
+      "id": 7, "type": "gauge",
+      "title": "P95 Latency",
+      "description": "95th percentile latency — 95% of requests complete faster than this",
+      "gridPos": {"h":6,"w":6,"x":0,"y":14},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]}, "minVizWidth": 75, "minVizHeight": 75 },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":1},{"color":"red","value":2}]},
+          "unit": "s", "min": 0, "max": 5
+        }
+      },
+      "targets": [{ "expr": "histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[5m]))", "legendFormat": "P95 Latency", "refId": "A" }]
+    },
+
+    {
+      "id": 8, "type": "gauge",
+      "title": "P50 Latency (Median)",
+      "description": "Median latency — typical user experience",
+      "gridPos": {"h":6,"w":6,"x":6,"y":14},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]} },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"green","value":null},{"color":"yellow","value":0.5},{"color":"red","value":1}]},
+          "unit": "s", "min": 0, "max": 3
+        }
+      },
+      "targets": [{ "expr": "histogram_quantile(0.50, rate(api_request_latency_seconds_bucket[5m]))", "legendFormat": "P50 Latency", "refId": "A" }]
+    },
+
+    {
+      "id": 9, "type": "timeseries",
+      "title": "Latency Distribution Over Time (P50 / P95 / P99)",
+      "description": "Latency percentiles — rising P99 indicates occasional slowdowns",
+      "gridPos": {"h":6,"w":12,"x":12,"y":14},
+      "options": { "tooltip": {"mode":"multi"}, "legend": {"displayMode":"list","placement":"bottom"} },
+      "fieldConfig": {
+        "defaults": { "unit": "s", "custom": {"lineWidth":2} }
+      },
+      "targets": [
+        { "expr": "histogram_quantile(0.50, rate(api_request_latency_seconds_bucket[2m]))", "legendFormat": "P50", "refId": "A" },
+        { "expr": "histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[2m]))", "legendFormat": "P95", "refId": "B" },
+        { "expr": "histogram_quantile(0.99, rate(api_request_latency_seconds_bucket[2m]))", "legendFormat": "P99", "refId": "C" }
+      ]
+    },
+
+    { "type": "row", "id": 300, "title": "🤖 MODEL HEALTH", "gridPos": {"h":1,"w":24,"x":0,"y":20}, "collapsed": false },
+
+    {
+      "id": 10, "type": "gauge",
+      "title": "Model Accuracy (ROC-AUC)",
+      "description": "Classification model accuracy vs baseline (0.83). Below 0.78 = warning, below 0.70 = critical",
+      "gridPos": {"h":6,"w":6,"x":0,"y":21},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]} },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"red","value":null},{"color":"yellow","value":0.70},{"color":"orange","value":0.78},{"color":"green","value":0.83}]},
+          "unit": "percentunit", "min": 0, "max": 1, "decimals": 3
+        }
+      },
+      "targets": [{ "expr": "model_accuracy", "legendFormat": "ROC-AUC", "refId": "A" }]
+    },
+
+    {
+      "id": 11, "type": "gauge",
+      "title": "Prediction Confidence",
+      "description": "Win probability from last prediction. Below 0.55 = uncertain model",
+      "gridPos": {"h":6,"w":6,"x":6,"y":21},
+      "options": { "reduceOptions": {"calcs":["lastNotNull"]} },
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode":"thresholds"},
+          "thresholds": {"mode":"absolute","steps":[{"color":"red","value":null},{"color":"yellow","value":0.55},{"color":"green","value":0.70}]},
+          "unit": "percentunit", "min": 0, "max": 1
+        }
+      },
+      "targets": [{ "expr": "model_confidence", "legendFormat": "Confidence", "refId": "A" }]
+    },
+
+    {
+      "id": 12, "type": "timeseries",
+      "title": "Model Accuracy & Confidence Over Time",
+      "description": "Track model health — sudden drops indicate drift or data quality issues",
+      "gridPos": {"h":6,"w":12,"x":12,"y":21},
+      "options": { "tooltip": {"mode":"multi"}, "legend": {"displayMode":"list"} },
+      "fieldConfig": {
+        "defaults": { "unit": "percentunit", "custom": {"lineWidth":2}, "min": 0, "max": 1 },
+        "overrides": [
+          { "matcher": {"id":"byName","options":"Baseline (0.83)"},
+            "properties": [{"id":"custom.lineStyle","value":{"fill":"dash"}},{"id":"color","value":{"fixedColor":"orange","mode":"fixed"}}] }
+        ]
+      },
+      "targets": [
+        { "expr": "model_accuracy", "legendFormat": "Accuracy (ROC-AUC)", "refId": "A" },
+        { "expr": "model_confidence", "legendFormat": "Confidence", "refId": "B" },
+        { "expr": "vector(0.83)", "legendFormat": "Baseline (0.83)", "refId": "C" }
+      ]
+    },
+
+    { "type": "row", "id": 400, "title": "🔄 RETRAINING & DRIFT", "gridPos": {"h":1,"w":24,"x":0,"y":27}, "collapsed": false },
+
+    {
+      "id": 13, "type": "timeseries",
+      "title": "Accuracy Before vs After Retraining",
+      "description": "Each retraining event should maintain or improve accuracy",
+      "gridPos": {"h":7,"w":12,"x":0,"y":28},
+      "options": { "tooltip": {"mode":"multi"}, "legend": {"displayMode":"list"} },
+      "fieldConfig": {
+        "defaults": { "unit": "percentunit", "custom": {"lineWidth":2}, "min": 0.5, "max": 1.0 }
+      },
+      "targets": [
+        { "expr": "model_accuracy", "legendFormat": "Model Accuracy", "refId": "A" },
+        { "expr": "vector(0.83)", "legendFormat": "Initial Baseline", "refId": "B" },
+        { "expr": "vector(0.78)", "legendFormat": "⚠️ Warning Threshold", "refId": "C" },
+        { "expr": "vector(0.70)", "legendFormat": "🚨 Critical Threshold", "refId": "D" }
+      ]
+    },
+
+    {
+      "id": 14, "type": "table",
+      "title": "System Snapshot (Last Values)",
+      "description": "Current state of all key metrics at a glance",
+      "gridPos": {"h":7,"w":12,"x":12,"y":28},
+      "options": { "showHeader": true, "sortBy": [] },
+      "fieldConfig": {
+        "defaults": { "custom": {"displayMode":"auto"} }
+      },
+      "targets": [
+        { "expr": "api_requests_total", "legendFormat": "Total Requests", "refId": "A", "instant": true },
+        { "expr": "api_errors_total", "legendFormat": "Total Errors", "refId": "B", "instant": true },
+        { "expr": "model_accuracy", "legendFormat": "Model Accuracy", "refId": "C", "instant": true },
+        { "expr": "model_confidence", "legendFormat": "Prediction Confidence", "refId": "D", "instant": true },
+        { "expr": "histogram_quantile(0.95, rate(api_request_latency_seconds_bucket[5m]))", "legendFormat": "P95 Latency (s)", "refId": "E", "instant": true }
+      ]
+    }
+
+  ],
+  "refresh": "10s",
+  "schemaVersion": 38,
+  "tags": ["padel", "mlops", "monitoring"],
+  "templating": { "list": [] },
+  "time": { "from": "now-1h", "to": "now" },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "🎾 Padel Analytics — MLOps Monitoring",
+  "uid": "padel-mlops-v1",
+  "version": 1
+}

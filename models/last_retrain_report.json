@@ -1,0 +1,6 @@
+{
+  "timestamp": "2026-05-04T09:01:52.862502",
+  "retrain": false,
+  "reason": "DB connection failed: (mysql.connector.errors.ProgrammingError) 1698 (28000): Access denied for user 'root'@'localhost'\n(Background on this error at: https://sqlalche.me/e/20/f405)",
+  "drift_report": {}
+}
