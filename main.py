@@ -37,7 +37,7 @@ from sklearn.impute import SimpleImputer
 
 # ── Logging ──────────────────────────────────────────────────────
 logging.basicConfig(
-    filename="predictions.log",
+    filename="predictions_app.log",
     level=logging.INFO,
     format="%(asctime)s | %(levelname)s | %(message)s"
 )
@@ -145,12 +145,18 @@ except Exception as e:
     logging.warning(f"[STARTUP] Clustering model not found: {e}")
 
 try:
-    from prophet.serialize import model_from_json
-    with open("models/timeseries_model.json", "r") as f:
-        ts_model = model_from_json(f.read())
-    logging.info("[STARTUP] Modele Time Series charge avec succes")
+    if os.path.exists("models/timeseries_model.pkl"):
+        ts_model = joblib.load("models/timeseries_model.pkl")
+        logging.info("[STARTUP] Modele Time Series (.pkl) charge avec succes")
+    elif os.path.exists("models/timeseries_model.json"):
+        from prophet.serialize import model_from_json
+        with open("models/timeseries_model.json", "r") as f:
+            ts_model = model_from_json(f.read())
+        logging.info("[STARTUP] Modele Time Series (.json) charge avec succes")
+    else:
+        logging.warning("[STARTUP] Aucun modele Time Series trouve (.pkl ou .json)")
 except Exception as e:
-    logging.warning(f"[STARTUP] Time series model not found: {e}")
+    logging.warning(f"[STARTUP] Error loading time series model: {e}")
 
 # ── Load accuracy from last retrain report ───────────────────────
 try:

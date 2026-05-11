@@ -1,0 +1,60 @@
+<div class="login-page">
+  <!-- Background orbs -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+
+  <!-- Header -->
+  <header class="login-header animate-fadeInUp">
+    <div class="logo">
+      <span class="logo-icon">🎾</span>
+      <span class="logo-text">Padel<strong>Analytics</strong></span>
+    </div>
+    <div class="header-badge">
+      <span class="pulse-dot"></span>
+      Authentification Sécurisée
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="login-main">
+    
+    <div class="login-form-container animate-fadeInUp">
+      <div class="hero">
+        <div class="hero-tag">Accès Décideur</div>
+        <h1 class="hero-title">Connexion <br><span class="gradient-text">Microsoft Entra</span></h1>
+        <p class="hero-subtitle">Connectez-vous avec vos identifiants professionnels pour accéder à l'écosystème Padel Analytics.</p>
+      </div>
+
+      <div class="form-card glass-card">
+        <div class="ms-logo">
+          <svg width="21" height="21" viewBox="0 0 21 21"><path fill="#f25022" d="M1 1h9v9H1z"/><path fill="#7fba00" d="M11 1h9v9h-11z"/><path fill="#00a4ef" d="M1 11h9v9H1z"/><path fill="#ffb900" d="M11 11h9v9h-11z"/></svg>
+          <span>Microsoft</span>
+        </div>
+        
+        <div class="form-group">
+          <label>Adresse e-mail</label>
+          <input type="email" [(ngModel)]="loginData.email" placeholder="nom&#64;padel.com" class="form-input">
+        </div>
+        <div class="form-group">
+          <label>Mot de passe</label>
+          <input type="password" [(ngModel)]="loginData.password" placeholder="••••••••" class="form-input" (keyup.enter)="submitLogin()">
+        </div>
+
+        @if (loginError) {
+          <div class="error-msg animate-fadeIn">⚠️ {{ loginError }}</div>
+        }
+
+        <button class="btn-primary login-submit" (click)="submitLogin()" [disabled]="isLoading">
+          @if (isLoading) { <span class="spinner"></span> }
+          Se Connecter
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="login-footer">
+    <p>© {{ currentYear }} Padel Analytics Platform — Powered by Microsoft Power BI</p>
+  </footer>
+</div>

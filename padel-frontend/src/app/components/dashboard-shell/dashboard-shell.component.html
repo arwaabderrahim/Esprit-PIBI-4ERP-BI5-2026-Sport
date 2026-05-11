@@ -1,0 +1,93 @@
+<div class="shell" [class.sidebar-collapsed]="!sidebarOpen">
+
+  <!-- Sidebar -->
+  <aside class="sidebar" [style.--role-color]="getRoleColor()">
+    <div class="sidebar-inner">
+      <!-- Logo -->
+      <div class="sidebar-logo">
+        <span class="logo-icon">🎾</span>
+        @if (sidebarOpen) {
+          <span class="logo-text">Padel<strong>Analytics</strong></span>
+        }
+      </div>
+
+      <!-- User info -->
+      @if (sidebarOpen) {
+        <div class="user-card">
+          <div class="user-avatar" [style.background]="'linear-gradient(135deg, ' + getRoleColor() + ', rgba(0,0,0,0.3))'">
+            {{ user?.avatar }}
+          </div>
+          <div class="user-info">
+            <p class="user-name">{{ user?.name }}</p>
+            <p class="user-role" [style.color]="getRoleColor()">{{ getRoleLabel() }}</p>
+            <p class="user-org">{{ user?.organization }}</p>
+          </div>
+        </div>
+      }
+
+      <!-- Navigation -->
+      <nav class="sidebar-nav">
+        @for (item of navItems; track item.label) {
+          <a
+            [routerLink]="item.route"
+            [routerLinkActiveOptions]="{ exact: !!item.exact }"
+            routerLinkActive="active"
+            class="nav-item"
+            [title]="item.label"
+          >
+            <span class="nav-icon">{{ item.icon }}</span>
+            @if (sidebarOpen) {
+              <span class="nav-label">{{ item.label }}</span>
+            }
+            <span class="nav-indicator"></span>
+          </a>
+        }
+      </nav>
+
+      <!-- Bottom actions -->
+      <div class="sidebar-bottom">
+        <button class="nav-item logout-btn" (click)="logout()" id="btn-logout" title="Déconnexion">
+          <span class="nav-icon">↩</span>
+          @if (sidebarOpen) {
+            <span class="nav-label">Déconnexion</span>
+          }
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main area -->
+  <div class="main-area">
+    <!-- Top bar -->
+    <header class="topbar">
+      <div class="topbar-left">
+        <button class="toggle-btn" (click)="toggleSidebar()" id="btn-toggle-sidebar">
+          <span>☰</span>
+        </button>
+        <div class="breadcrumb">
+          <span class="breadcrumb-root">Dashboard</span>
+          <span class="breadcrumb-sep">›</span>
+          <span class="breadcrumb-current" [style.color]="getRoleColor()">{{ getRoleLabel() }}</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="live-indicator">
+          <span class="pulse-dot"></span>
+          <span>Live</span>
+        </div>
+        <div class="clock">{{ currentTime | date:'HH:mm:ss' }}</div>
+        <div class="user-chip">
+          <div class="chip-avatar" [style.background]="'linear-gradient(135deg, ' + getRoleColor() + '44, ' + getRoleColor() + '22)'">
+            {{ user?.avatar }}
+          </div>
+          <span>{{ user?.name }}</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="page-content">
+      <router-outlet />
+    </div>
+  </div>
+</div>

@@ -1,0 +1,95 @@
+<div class="predictions-container">
+  <!-- Header -->
+  <header class="dashboard-header animate-fadeIn">
+    <div class="header-main">
+      <div class="title-group">
+        <h1 class="page-title" [innerText]="roleTitle"></h1>
+        <p class="page-subtitle" [innerText]="roleSubtitle"></p>
+      </div>
+      <div class="header-actions">
+        <div class="status-badge" [class.online]="isBackendLive">
+          <span class="status-dot"></span>
+          <span *ngIf="isBackendLive">Backend ML En Ligne</span>
+          <span *ngIf="!isBackendLive">Backend ML Hors Ligne</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- KPI Grid -->
+  <div class="kpi-grid">
+    <div *ngFor="let kpi of kpis" class="kpi-card glass-card animate-fadeInUp">
+      <div class="kpi-header">
+        <span class="kpi-icon" [innerText]="kpi.icon"></span>
+        <span class="kpi-delta" [class.negative]="!kpi.positive" [innerText]="kpi.delta"></span>
+      </div>
+      <div class="kpi-body">
+        <div class="kpi-value" [innerText]="kpi.value"></div>
+        <div class="kpi-label" [innerText]="kpi.label"></div>
+        <div class="kpi-sub" [innerText]="kpi.sub"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dashboard-grid">
+    <!-- Form Section -->
+    <div class="main-card glass-card animate-fadeInUp">
+      <div class="card-header">
+        <h2 class="card-title">Simulateur de Prediction</h2>
+        <p class="card-desc">Lancer l'inference du modele ML specifique au profil.</p>
+      </div>
+      
+      <div class="prediction-form">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Points Joueur A</label>
+            <input type="number" [(ngModel)]="predForm.Pts_A" class="form-input">
+          </div>
+          <div class="form-group">
+            <label>Points Joueur B</label>
+            <input type="number" [(ngModel)]="predForm.Pts_B" class="form-input">
+          </div>
+        </div>
+
+        <button class="btn-primary predict-btn" (click)="runPrediction()" [disabled]="isProcessing">
+          <span *ngIf="isProcessing" class="spinner"></span>
+          <span *ngIf="isProcessing">Inference en cours...</span>
+          <span *ngIf="!isProcessing">Lancer la Prediction</span>
+        </button>
+
+        <!-- Results -->
+        <div *ngIf="predResult" class="result-box animate-scaleIn">
+          <div class="result-header">
+            <h3>Resultat de l'Inference</h3>
+          </div>
+          <div class="result-value" [innerText]="predResult.message"></div>
+        </div>
+
+        <div *ngIf="predError" class="error-msg animate-fadeIn" [innerText]="predError"></div>
+      </div>
+    </div>
+
+    <!-- Side Sidebar -->
+    <div class="side-column">
+      <div class="side-card glass-card animate-fadeInUp">
+        <h3 class="side-title">Modeles ML Actifs</h3>
+        <div class="model-list">
+          <div *ngFor="let m of modelMetrics" class="model-item">
+            <div class="model-info">
+              <div class="model-name" [innerText]="m.name"></div>
+              <div class="model-status" [innerText]="m.status"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-card glass-card animate-fadeInUp">
+        <h3 class="side-title">Infos Systeme</h3>
+        <div *ngIf="health" class="sys-info">
+          <div class="info-row"><span>Version</span> <strong [innerText]="health.version"></strong></div>
+          <div class="info-row"><span>Uptime</span> <strong [innerText]="health.uptime_seconds"></strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

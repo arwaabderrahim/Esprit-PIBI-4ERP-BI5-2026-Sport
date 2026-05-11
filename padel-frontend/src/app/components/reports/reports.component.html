@@ -1,0 +1,40 @@
+<div class="reports-page animate-fadeInUp">
+  <!-- Header -->
+  <div class="page-header">
+    <div>
+      <h1 class="page-title">📊 Rapports Power BI</h1>
+      <p class="page-sub">Visualisez les données stratégiques pour votre profil : <strong>{{ getRoleLabel() }}</strong></p>
+    </div>
+    <div class="header-actions">
+      <span class="badge badge-primary">Microsoft Power BI</span>
+    </div>
+  </div>
+
+  <!-- Embedded Report -->
+  <div class="report-container glass-card delay-1">
+    @if (reportUrl) {
+      <iframe 
+        title="Padel Analytics Report"
+        width="100%" 
+        height="100%" 
+        [src]="reportUrl" 
+        frameborder="0" 
+        allowFullScreen="true">
+      </iframe>
+    } @else {
+      <div class="loading-state">
+        <span class="spinner"></span>
+        <p>Chargement du rapport sécurisé...</p>
+      </div>
+    }
+  </div>
+
+  <!-- Note for the user -->
+  <div class="info-panel glass-card delay-2">
+    <div class="info-icon">ℹ️</div>
+    <div class="info-text">
+      <h4>Navigation sécurisée</h4>
+      <p>Le rapport affiché est filtré automatiquement pour votre rôle. Si vous avez besoin d'accès supplémentaires, veuillez contacter l'administrateur système.</p>
+    </div>
+  </div>
+</div>

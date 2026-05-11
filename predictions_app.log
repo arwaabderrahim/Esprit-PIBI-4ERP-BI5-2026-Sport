@@ -1,0 +1,14 @@
+2026-05-11 11:50:15,785 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-05-11 11:50:15,785 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-05-11 11:50:15,937 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-05-11 11:50:15,937 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-05-11 11:50:16,075 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-05-11 11:50:17,294 | INFO | [STARTUP] Modele Time Series (.pkl) charge avec succes
+2026-05-11 11:50:17,294 | INFO | [STARTUP] Modele Time Series (.pkl) charge avec succes
+2026-05-11 12:05:08,700 | INFO | [STARTUP] Modele Classification charge avec succes
+2026-05-11 12:05:08,756 | INFO | [STARTUP] Modele Regression charge avec succes
+2026-05-11 12:05:08,792 | INFO | [STARTUP] Modele Clustering charge avec succes
+2026-05-11 12:05:09,325 | INFO | [STARTUP] Modele Time Series (.pkl) charge avec succes
+2026-05-11 14:21:27,903 | INFO | [TIMESERIES] Periods=6 | Premier mois=2025-05 | Valeur=50.4
+2026-05-11 14:21:33,391 | INFO | [TIMESERIES] Periods=20 | Premier mois=2025-05 | Valeur=50.4
+2026-05-11 14:21:39,578 | INFO | [TIMESERIES] Periods=5 | Premier mois=2025-05 | Valeur=50.4

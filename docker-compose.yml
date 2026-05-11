@@ -11,8 +11,25 @@ services:
     restart: unless-stopped
     networks:
       - padel-net
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
 
-  # ── 2. Prometheus — Metrics collection ──────────────────────────
+  # ── 2. Angular Frontend ──────────────────────────────────────────
+  padel-frontend:
+    build: ./padel-frontend
+    container_name: padel-frontend
+    ports:
+      - "4200:80"
+    restart: unless-stopped
+    networks:
+      - padel-net
+    depends_on:
+      - padel-analytics-api
+
+  # ── 3. Prometheus — Metrics collection ──────────────────────────
   prometheus:
     image: prom/prometheus:latest
     container_name: prometheus
@@ -30,7 +47,7 @@ services:
     networks:
       - padel-net
 
-  # ── 3. Grafana — Dashboards & Visualization ─────────────────────
+  # ── 4. Grafana — Dashboards & Visualization ─────────────────────
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
@@ -50,7 +67,7 @@ services:
     networks:
       - padel-net
 
-  # ── 4. AlertManager — Alerts & Notifications ────────────────────
+  # ── 5. AlertManager — Alerts & Notifications ────────────────────
   alertmanager:
     image: prom/alertmanager:latest
     container_name: alertmanager
@@ -62,7 +79,7 @@ services:
     networks:
       - padel-net
 
-  # ── 5. n8n — Workflow Automation ────────────────────────────────
+  # ── 6. n8n — Workflow Automation ────────────────────────────────
   n8n:
     image: docker.n8n.io/n8nio/n8n
     container_name: n8n
